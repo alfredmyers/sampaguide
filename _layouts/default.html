@@ -8,8 +8,8 @@
 	<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 	<link rel="alternate" type="application/rss+xml" title="Feed para Sampa Guide »" href="http://sampaguide.com/pt/feed/">
 	<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Sampa Guide »" href="http://sampaguide.com/pt/comments/feed/">
-	<link rel="stylesheet" id="sketch-style-css" href="/css/style.css" type="text/css" media="all">
-	<link rel="stylesheet" id="genericons-css" href="/css/genericons.css" type="text/css" media="all">
+	<link rel="stylesheet" id="sketch-style-css" href="{{ site.baseurl }}/css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" id="genericons-css" href="{{ site.baseurl }}/css/genericons.css" type="text/css" media="all">
   <!-- Google Analytics -->
   <script>
     if (location.protocol !== "file:"){
@@ -123,7 +123,7 @@ your theme's stylesheet content.
 		<a class="skip-link screen-reader-text" href="http://sampaguide.com/pt/#content">Pular para o conteúdo</a>
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
-				<h1 class="site-title"><a href="/" rel="home">{{ site.title }}</a></h1>
+				<h1 class="site-title"><a href="{{ site.url }}{{ site.baseurl }}" rel="home">{{ site.title }}</a></h1>
 				<h2 class="site-description">Um guia para se perder em São Paulo</h2>
 			</div>
 
@@ -141,7 +141,7 @@ your theme's stylesheet content.
 								<li id="menu-item-762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-762"><a href="http://sampaguide.com/pt/regioes/zona-oeste/">Zona Oeste</a></li>
 							</ul>
 						</li>
-						<li id="menu-item-760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-760"><a href="/sobre">Sobre</a></li>
+						<li id="menu-item-760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-760"><a href="{{ site.baseurl }}/sobre">Sobre</a></li>
 					</ul>
 				</div>
 			</nav>
