@@ -1,0 +1,7 @@
+<header class="portfolio-entry-header">										
+    <a class="portfolio-featured-image" href="{{ include.href }}">
+        <img width="1024" height="683" src="./img/{{ include.fileName }}" class="attachment-large size-large wp-post-image" alt="{{ include.alt }}"
+            srcset="{{ include.baseUrl }}{{ include.fileName }}?w=2048 2048w, {{ include.baseUrl }}{{ include.fileName }}?resize=300%2C200 300w, {{ include.baseUrl }}{{ include.fileName }}?resize=1024%2C683 1024w" sizes="(max-width: 1024px) 100vw, 1024px">
+    </a>
+    <h2 class="portfolio-entry-title"><a href="{{ include.href }}" title="{{ include.title }}">{{ include.title }}</a></h2>
+</header>
