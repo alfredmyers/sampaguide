@@ -4,56 +4,18 @@ layout: default
 <article id="post-72" class="post-72 page type-page status-publish hentry">
 	<div class="entry-content">
 		{% include googlemapsembed.html pb="!1m18!1m12!1m3!1d467692.0487341582!2d-46.87548831602552!3d-23.681531486742294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o+Paulo%2C+State+of+S%C3%A3o+Paulo!5e0!3m2!1sen!2sbr!4v1486146988598" %} 
-		<!-- 
-			{% include googlemapsstatic.html center="Sao+Paulo,SP" alt="Mapa do município de São Paulo" %}
-		-->
 		<br>
-		<div class="jetpack-portfolio-shortcode column-2">
-			<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row">
-				{% include portfolioentry.html 
-					href="http://sampaguide.com/pt/regioes/zona-central/"
-					alt="Pateo do Collegio marks the site where the city of São Paulo was founded in 1554 by Manuel da Nóbrega and José de Anchieta"
-					title="Zona Central"
-					id="https://c1.staticflickr.com/8/7639/16885705632"
-					secret="a5175e2fa2"
-					secret1600="146e0ae5bd"
-					secret2048="2579a9512f"
-				%}
-			</div>
-			<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-last-item-row portfolio-entry-last-item-row">
-				{% include portfolioentry.html
-					href="http://sampaguide.com/pt/regioes/zona-sul/"
-					alt="Fim de tarde no Lago 3 do Parque do Ibirapuera"
-					title="Zona Sul"
-					id="https://c1.staticflickr.com/8/7600/16887862852"
-					secret="0b7cd0db80"
-					secret1600="a61bb27c49"
-					secret2048="78bdefa0dd"
-				%}
-			</div>
-			<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row">
-				{% include portfolioentry.html
-					href="http://sampaguide.com/pt/regioes/zona-leste/"
-					alt="Arena Corinthians"
-					title="Zona Leste"
-					id="https://c1.staticflickr.com/8/7606/16282161444"
-					secret="d3dbcf7992"
-					secret1600="fff5604e57"
-					secret2048="2d53c516f8"
-				%}
-			</div>
-			<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-last-item-row portfolio-entry-last-item-row">
-				{% include portfolioentry.html
-					href="http://sampaguide.com/pt/regioes/zona-oeste/"
-					alt="Museu do Futebol"
-					title="Zona Oeste"
-					id="https://c1.staticflickr.com/8/7605/16887966391"
-					secret="e2efe99829"
-					secret1600="52328ee0bd"
-					secret2048="2a38517a41"
-				%}
-			</div>
+		<div class="jetpack-portfolio-shortcode column-2">{% assign folders = site.regioes | sort: 'order' %}{% for folder in folders %}{% assign mod = forloop.index | modulo: 2 %}
+			{% if mod == 1 %}<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row">{% else %}<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-last-item-row portfolio-entry-last-item-row">{% endif %}
+				<header class="portfolio-entry-header">										
+					<a class="portfolio-featured-image" href="{{ folder.url }}">
+						<img width="1024" height="683" src="{{ folder.flickr_id }}_{{ folder.secret }}_b.jpg" class="attachment-large size-large wp-post-image" alt="{{ folder.alt }}"
+							srcset="{{ folder.flickr_id }}_{{ folder.secret }}.jpg 500w, {{ folder.flickr_id }}_{{ folder.secret }}_z.jpg 640w, {{ folder.flickr_id }}_{{ folder.secret }}_c.jpg 800w, {{ folder.flickr_id }}_{{ folder.secret }}_b.jpg 1024w, {{ folder.flickr_id }}_{{ folder.secret1600 }}_h.jpg 1600w, {{ folder.flickr_id }}_{{ folder.secret2048 }}_k.jpg 2048w" 
+							sizes="(max-width: 1024px) 100vw, 1024px">
+					</a>
+					<h2 class="portfolio-entry-title"><a href="{{ folder.url }}" title="{{ folder.title }}">{{ folder.title }}</a></h2>
+				</header>
+			</div>{% endfor %}
 		</div>
-		<p></p>
 	</div>
 </article>

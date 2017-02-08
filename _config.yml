@@ -15,10 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Sampa Guide
 email: info@sampaguide.com
-description: > # this means to ignore newlines until "baseurl:"
-  Um guia para explorar e “se perder” na cidade de São Paulo.
-baseurl: "/sampaguide" # the subpath of your site, e.g. /blog
-url: "https://alfredmyers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: Um guia para explorar e “se perder” na cidade de São Paulo
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://alfredmyers.github.io/sampaguide" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sampaguide
 github_username:  alfredmyers
 
@@ -32,3 +31,9 @@ exclude:
   - Gemfile.lock
 
 google_api_key: AIzaSyBLAgNaPxf28D8gsfcvuAqie4xrLrper2Y
+
+collections:
+  regioes:
+    output: true
+
+permalink: pretty
