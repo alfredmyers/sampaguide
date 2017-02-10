@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{ site.title}} – {{ site.description }}</title>
+		<title>{{ page.title}}</title>
 		<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 		<link rel="stylesheet" id="sketch-style-css" href="{{ site.baseurl }}/css/style.css" type="text/css" media="all">
 		<link rel="stylesheet" id="genericons-css" href="{{ site.baseurl }}/css/genericons.css" type="text/css" media="all">
@@ -87,79 +87,77 @@
 		</style>
 	</head>
 
-<body class="home page-template page-template-fullwidth-page page-template-fullwidth-page-php page page-id-72 logged-in admin-bar no-sidebar customize-support">
-<div id="page" class="hfeed site">
-		<a class="skip-link screen-reader-text" href="http://sampaguide.com/pt/#content">Pular para o conteúdo</a>
-		<header id="masthead" class="site-header" role="banner">
-			<div class="site-branding">
-				<h1 class="site-title"><a href="{{ site.url }}{{ site.baseurl }}" rel="home">{{ site.title }}</a></h1>
-				<h2 class="site-description">Um guia para se perder em São Paulo</h2>
-			</div>
+	<body class="home page-template page-template-fullwidth-page page-template-fullwidth-page-php page page-id-72 logged-in admin-bar no-sidebar customize-support">
+		<div id="page" class="hfeed site">
+			<a class="skip-link screen-reader-text" href="http://sampaguide.com/pt/#content">Pular para o conteúdo</a>
+			<header id="masthead" class="site-header" role="banner">
+				<div class="site-branding">
+					<h1 class="site-title"><a href="{{ site.baseurl }}/" rel="home">{{ site.title }}</a></h1>
+					<h2 class="site-description">Um guia para se perder em São Paulo</h2>
+				</div>
 
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<button class="menu-toggle">Menu</button>
-				<div class="menu-primary-menu-container">
-					<ul id="menu-primary-menu" class="menu nav-menu">
-						<li id="menu-item-759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-759"><a href="http://sampaguide.com/pt/blog/">Blog</a></li>
-						<li id="menu-item-761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-761"><a href="{{ site.baseurl }}/regioes/">Regiões</a>
-							<ul class="sub-menu">
-								<li id="menu-item-766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-766"><a href="http://sampaguide.com/pt/regioes/zona-central/">Zona Central</a></li>
-								<li id="menu-item-765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-765"><a href="http://sampaguide.com/pt/regioes/zona-norte/">Zona Norte</a></li>
-								<li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764"><a href="http://sampaguide.com/pt/regioes/zona-sul/">Zona Sul</a></li>
-								<li id="menu-item-763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-763"><a href="http://sampaguide.com/pt/regioes/zona-leste/">Zona Leste</a></li>
-								<li id="menu-item-762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-762"><a href="http://sampaguide.com/pt/regioes/zona-oeste/">Zona Oeste</a></li>
-							</ul>
-						</li>
-						<li id="menu-item-760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-760"><a href="{{ site.baseurl }}/sobre">Sobre</a></li>
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<button class="menu-toggle">Menu</button>
+					<div class="menu-primary-menu-container">
+						<ul id="menu-primary-menu" class="menu nav-menu">
+							<li id="menu-item-759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-759"><a href="http://sampaguide.com/pt/blog/">Blog</a></li>
+							<li id="menu-item-761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-761"><a href="{{ site.baseurl }}/regioes/">Regiões</a>
+								<ul class="sub-menu">
+									<li id="menu-item-766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-766"><a href="http://sampaguide.com/pt/regioes/zona-central/">Zona Central</a></li>
+									<li id="menu-item-765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-765"><a href="http://sampaguide.com/pt/regioes/zona-norte/">Zona Norte</a></li>
+									<li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764"><a href="http://sampaguide.com/pt/regioes/zona-sul/">Zona Sul</a></li>
+									<li id="menu-item-763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-763"><a href="http://sampaguide.com/pt/regioes/zona-leste/">Zona Leste</a></li>
+									<li id="menu-item-762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-762"><a href="http://sampaguide.com/pt/regioes/zona-oeste/">Zona Oeste</a></li>
+								</ul>
+							</li>
+							<li id="menu-item-760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-760"><a href="{{ site.baseurl }}/sobre">Sobre</a></li>
+						</ul>
+					</div>
+				</nav>
+				<!-- #site-navigation -->
+			</header>
+			<!-- #masthead -->
+
+			<div id="content" class="site-content">
+				<div id="primary" class="content-area">
+					<main id="main" class="site-main" role="main">
+						{{ content }}
+					</main>
+					<!-- #main -->
+				</div>
+				<!-- #primary -->
+			</div>
+			<!-- #content -->
+
+			<footer id="colophon" class="site-footer" role="contentinfo">
+				<div class="social-links">
+					<ul id="menu-social-links" class="menu">
+						<li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a href="https://facebook.com/sampaguide"><span class="screen-reader-text">Facebook</span></a></li>
+						<li id="menu-item-873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873"><a href="https://plus.google.com/+sampaguide"><span class="screen-reader-text">Google+</span></a></li>
+						<li id="menu-item-875" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-875"><a href="https://instagram.com/sampaguide"><span class="screen-reader-text">Instagram</span></a></li>
+						<li id="menu-item-877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-877"><a href="https://www.pinterest.com/sampaguide/"><span class="screen-reader-text">Pinterest</span></a></li>
+						<li id="menu-item-874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-874"><a href="https://twitter.com/sampaguide"><span class="screen-reader-text">Twitter</span></a></li>
+						<li id="menu-item-876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876"><a href="https://www.youtube.com/c/SampaGuide"><span class="screen-reader-text">YouTube</span></a></li>
 					</ul>
 				</div>
-			</nav>
-			<!-- #site-navigation -->
-		</header>
-		<!-- #masthead -->
-
-		<div id="content" class="site-content">
-
-			<div id="primary" class="content-area">
-				<main id="main" class="site-main" role="main">
-                    {{ content }}
-				</main>
-				<!-- #main -->
-			</div>
-			<!-- #primary -->
+			</footer>
+			<!-- #colophon -->
 		</div>
-		<!-- #content -->
+		<!-- #page -->
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="social-links">
-				<ul id="menu-social-links" class="menu">
-					<li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a href="https://facebook.com/sampaguide"><span class="screen-reader-text">Facebook</span></a></li>
-					<li id="menu-item-873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873"><a href="https://plus.google.com/+sampaguide"><span class="screen-reader-text">Google+</span></a></li>
-					<li id="menu-item-875" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-875"><a href="https://instagram.com/sampaguide"><span class="screen-reader-text">Instagram</span></a></li>
-					<li id="menu-item-877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-877"><a href="https://www.pinterest.com/sampaguide/"><span class="screen-reader-text">Pinterest</span></a></li>
-					<li id="menu-item-874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-874"><a href="https://twitter.com/sampaguide"><span class="screen-reader-text">Twitter</span></a></li>
-					<li id="menu-item-876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876"><a href="https://www.youtube.com/c/SampaGuide"><span class="screen-reader-text">YouTube</span></a></li>
-				</ul>
-			</div>
-		</footer>
-		<!-- #colophon -->
-	</div>
-	<!-- #page -->
+		<link rel="stylesheet" id="jetpack-portfolio-style-css" href="{{ site.baseurl }}/css/portfolio-shortcode.css" type="text/css" media="all">
+		<script type="text/javascript" src="{{ site.baseurl }}/js/navigation.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/skip-link-focus-fix.js"></script>
 
-	<link rel="stylesheet" id="jetpack-portfolio-style-css" href="{{ site.baseurl }}/css/portfolio-shortcode.css" type="text/css" media="all">
-	<script type="text/javascript" src="{{ site.baseurl }}/js/navigation.js"></script>
-	<script type="text/javascript" src="{{ site.baseurl }}/js/skip-link-focus-fix.js"></script>
-
-	<!-- mesmerize -->
-	<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<ins class="adsbygoogle"
-		style="display:block"
-		data-ad-client="ca-pub-9738054874581170"
-		data-ad-slot="6051521243"
-		data-ad-format="auto"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>	-->
-</body>
-
+		<!-- mesmerize -->
+		<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-9738054874581170"
+			data-ad-slot="6051521243"
+			data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>	-->
+	</body>
 </html>

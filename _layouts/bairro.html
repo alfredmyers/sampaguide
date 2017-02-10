@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-# {{ page.title }}
+<h1 class="entry-title">{{ page.title }}</h1>
 {% include googlemapsembed.html pb=page.pb %} 
-
+<h2>Pontos de Interesse</h2>
+<ul class="list-pages-shortcode child-pages">
+    {% assign bairro = page.title | slugify %}
+    {% assign lugares = site.lugares | where: 'bairro', bairro %}
+    {% for lugar in lugares %}
+    <li class="page_item"><a href="{{ site.baseurl }}{{ lugar.url }}">{{ lugar.title }}</a></li>
+    {% endfor %}
+</ul>
 {{ content }}

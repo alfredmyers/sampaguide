@@ -1,9 +1,25 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<h1 class="entry-title">{{ page.title }}</h1>
+<div class="jetpack-portfolio-shortcode column-2">
 {% assign slug = page.title | slugify %}
-{% assign bairros = site.bairros | where: 'regiao', slug %}
-{% for bairro in bairros %}
-<h2><a href="{{ bairro.title | slugify }}">{{ bairro.title }}</a></h2>
+{% assign folders = site.bairros | where: 'regiao', slug %}
+{% for folder in folders %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 1 %}
+        <div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row">
+    {% else %}
+        <div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-last-item-row portfolio-entry-last-item-row">
+    {% endif %}
+    <header class="portfolio-entry-header">										
+        <a class="portfolio-featured-image" href="{{ site.baseurl }}{{ folder.url }}">
+            <img width="1024" height="683" src="{{ folder.flickr_id }}_{{ folder.secret }}_b.jpg" class="attachment-large size-large wp-post-image" alt="{{ folder.alt }}"
+                srcset="{{ folder.flickr_id }}_{{ folder.secret }}.jpg 500w, {{ folder.flickr_id }}_{{ folder.secret }}_z.jpg 640w, {{ folder.flickr_id }}_{{ folder.secret }}_c.jpg 800w, {{ folder.flickr_id }}_{{ folder.secret }}_b.jpg 1024w, {{ folder.flickr_id }}_{{ folder.secret1600 }}_h.jpg 1600w, {{ folder.flickr_id }}_{{ folder.secret2048 }}_k.jpg 2048w" 
+                sizes="(max-width: 1024px) 100vw, 1024px">
+        </a>
+        <h2 class="portfolio-entry-title"><a href="{{ site.baseurl }}{{ folder.url }}" title="{{ folder.title }}">{{ folder.title }}</a></h2>
+    </header>
+    </div>
 {% endfor %}
+</div>

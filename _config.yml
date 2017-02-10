@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sampa Guide
+title: "Sampa Guide"
 email: info@sampaguide.com
 description: Um guia para explorar e “se perder” na cidade de São Paulo
 baseurl: "/sampaguide" # the subpath of your site, e.g. /blog
@@ -37,7 +37,9 @@ collections:
     output: true
   bairros:
     output: true
+    permalink: /regioes/:path/
   lugares:
     output: true
+    permalink: /regioes/:path/
 
 permalink: pretty
