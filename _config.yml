@@ -35,5 +35,9 @@ google_api_key: AIzaSyBLAgNaPxf28D8gsfcvuAqie4xrLrper2Y
 collections:
   regioes:
     output: true
+  bairros:
+    output: true
+  lugares:
+    output: true
 
 permalink: pretty

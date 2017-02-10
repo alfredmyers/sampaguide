@@ -1,5 +1,6 @@
 ---
 title: "Zona Leste"
+layout: regiao
 alt: "Arena Corinthians"
 flickr_id: "https://c1.staticflickr.com/8/7606/16282161444"
 secret: "d3dbcf7992"

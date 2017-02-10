@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+{% assign slug = page.title | slugify %}
+{% assign bairros = site.bairros | where: 'regiao', slug %}
+{% for bairro in bairros %}
+<h2><a href="{{ bairro.title | slugify }}">{{ bairro.title }}</a></h2>
+{% endfor %}
