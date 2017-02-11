@@ -4,14 +4,18 @@ layout: default
 <h1 class="entry-title">{{ page.title }}</h1>
 {% include googlemapsembed.html pb=page.pb %} 
 {{ content }}
+{% assign bairro = page.url | split: "/" | last %}
+{% assign lugares = site.lugares | where: 'bairro', bairro %}
+{% assign size = lugares.size %}
+{% if size > 0 %}
 <h2>Pontos de Interesse</h2>
 <ul class="list-pages-shortcode child-pages">
-    {% assign bairro = page.title | slugify %}
-    {% assign lugares = site.lugares | where: 'bairro', bairro %}
     {% for lugar in lugares %}
     <li class="page_item"><a href="{{ site.baseurl }}{{ lugar.url }}">{{ lugar.title }}</a></li>
     {% endfor %}
 </ul>
+{% endif %}
+{% if page.links %}
 <div class="bibliographysection">
     <h2>Para Saber Mais</h2>
     <ul>
@@ -20,3 +24,4 @@ layout: default
     {% endfor %}
     </ul>
 </div>
+{% endif %}
