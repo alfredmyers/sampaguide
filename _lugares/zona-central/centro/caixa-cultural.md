@@ -1,0 +1,19 @@
+---
+title: Caixa Cultural
+layout: lugar
+bairro: centro
+pb: "!1m14!1m8!1m3!1d3657.5357635507057!2d-46.632787!3d-23.549194000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aafb882e6b%3A0xcad9bc91f334fcee!2sCaixa+Cultural!5e0!3m2!1sen!2sbr!4v1427340064368"
+panorama: "1m0!3m2!1sen!2sus!4v1435769561706!6m8!1m7!1sdM1WYAq0x3AAAAQY9MQznA!2m2!1d-23.549212!2d-46.633111!3f0.12391387116112718!4f21.728499503500913!5f0.7820865974627469"
+links: 
+  - title: Wikipedia
+    url: https://pt.wikipedia.org/wiki/Caixa_Cultural_S%C3%A3o_Paulo
+---
+O edifício que hoje abriga a Caixa Cultural São Paulo foi projetado para ser a sede estadual da Caixa Econômica Federal no estado de São Paulo, substituindo a sede de 1907 localizada na antiga Travessa da Sé - atual Rua Venceslau Brás.
+
+A elaboração do projeto começou em 1933 e a construção em 1935 - ambas a cargo dos Escritórios Albuquerque &amp; Longo.
+
+A inauguração ocorreu em 29 de agosto de 1939, com a presença do então presidente Getúlio Vargas.
+
+O edifício abrigou a sede da Caixa em São Paulo até 1979, quando os escritórios do banco foram transferidos para um edifício na Avenida Paulista.
+
+A unidade paulistana da Caixa Cultural foi inaugurada em 29 de agosto de 1989 ocupando alguns andares do edifício que abriga ainda a agência Sé e alguns escritórios administrativos do banco.
