@@ -103,11 +103,10 @@
 							<li id="menu-item-759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-759"><a href="http://sampaguide.com/pt/blog/">Blog</a></li>
 							<li id="menu-item-761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-761"><a href="{{ site.baseurl }}/regioes/">Regiões</a>
 								<ul class="sub-menu">
-									<li id="menu-item-766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-766"><a href="http://sampaguide.com/pt/regioes/zona-central/">Zona Central</a></li>
-									<li id="menu-item-765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-765"><a href="http://sampaguide.com/pt/regioes/zona-norte/">Zona Norte</a></li>
-									<li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764"><a href="http://sampaguide.com/pt/regioes/zona-sul/">Zona Sul</a></li>
-									<li id="menu-item-763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-763"><a href="http://sampaguide.com/pt/regioes/zona-leste/">Zona Leste</a></li>
-									<li id="menu-item-762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-762"><a href="http://sampaguide.com/pt/regioes/zona-oeste/">Zona Oeste</a></li>
+									{% assign regioes = site.regioes | sort: 'order' %}
+									{% for folder in regioes %}
+									<li id="menu-item-766" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ site.baseurl }}{{ folder.url }}">{{ folder.title }}</a></li>
+									{% endfor %}
 								</ul>
 							</li>
 							<li id="menu-item-760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-760"><a href="{{ site.baseurl }}/sobre">Sobre</a></li>
