@@ -9,19 +9,17 @@ layout: default
 {% assign size = lugares.size %}
 {% if size > 0 %}
 <h2>Pontos de Interesse</h2>
-<ul class="list-pages-shortcode child-pages">
+<ul>
     {% for lugar in lugares %}
-    <li class="page_item"><a href="{{ site.baseurl }}{{ lugar.url }}">{{ lugar.title }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ lugar.url }}">{{ lugar.title }}</a></li>
     {% endfor %}
 </ul>
 {% endif %}
 {% if page.links %}
-<div class="bibliographysection">
-    <h2>Para Saber Mais</h2>
-    <ul>
-    {% for link in page.links %}
-        <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}
-    </ul>
-</div>
+<h2>Para Saber Mais</h2>
+<ul>
+{% for link in page.links %}
+    <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
+{% endfor %}
+</ul>
 {% endif %}

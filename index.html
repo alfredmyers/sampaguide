@@ -6,11 +6,11 @@ title: SampaGuide - Um guia para explorar e “se perder” na cidade de São Pa
 	<div class="entry-content">
 		{% include googlemapsembed.html pb="!1m18!1m12!1m3!1d467692.0487341582!2d-46.87548831602552!3d-23.681531486742294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o+Paulo%2C+State+of+S%C3%A3o+Paulo!5e0!3m2!1sen!2sbr!4v1486146988598" %} 
 		<br>
-		<div class="jetpack-portfolio-shortcode column-2">{% assign folders = site.regioes | sort: 'order' %}{% for folder in folders %}{% assign mod = forloop.index | modulo: 2 %}
+		<div class="jetpack-portfolio-shortcode">{% assign folders = site.regioes | sort: 'order' %}{% for folder in folders %}{% assign mod = forloop.index | modulo: 2 %}
 			{% if mod == 1 %}<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-first-item-row portfolio-entry-first-item-row">{% else %}<div class="portfolio-entry portfolio-entry-column-2 portfolio-entry-mobile-last-item-row portfolio-entry-last-item-row">{% endif %}
 				<header class="portfolio-entry-header">										
 					<a class="portfolio-featured-image" href="{{ site.baseurl }}{{ folder.url }}">
-						<img width="1024" height="683" src="{{ folder.flickr_id }}_{{ folder.secret }}_b.jpg" class="attachment-large size-large wp-post-image" alt="{{ folder.alt }}"
+						<img width="1024" height="683" src="{{ folder.flickr_id }}_{{ folder.secret }}_b.jpg" alt="{{ folder.alt }}"
 							srcset="{{ folder.flickr_id }}_{{ folder.secret }}.jpg 500w, {{ folder.flickr_id }}_{{ folder.secret }}_z.jpg 640w, {{ folder.flickr_id }}_{{ folder.secret }}_c.jpg 800w, {{ folder.flickr_id }}_{{ folder.secret }}_b.jpg 1024w, {{ folder.flickr_id }}_{{ folder.secret1600 }}_h.jpg 1600w, {{ folder.flickr_id }}_{{ folder.secret2048 }}_k.jpg 2048w" 
 							sizes="(max-width: 1024px) 100vw, 1024px">
 					</a>
