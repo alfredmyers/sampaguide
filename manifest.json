@@ -5,6 +5,11 @@
   "name": "{{ site.title }}",
   "icons": [
     {
+      "src":"{{ site.baseurl }}/img/BrazaoSaoPaulo144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
       "src":"{{ site.baseurl }}/img/BrazaoSaoPaulo192.png",
       "sizes": "192x192",
       "type": "image/png"
@@ -14,4 +19,8 @@
   "background_color": "#fff",
   "theme_color": "#cc0000",
   "display": "standalone"
+  {% if site.baseurl != '' %}
+  ,
+  "scope": "{{ site.baseurl }}/"
+  {% endif %}
 }
