@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Sobre o Sampa Guide
 ---
 O Sampa Guide é um guia para explorar e “se perder” na cidade de São Paulo.
 
