@@ -16,29 +16,10 @@
 		<script async src='https://www.google-analytics.com/analytics.js'></script>
 		<!-- End Google Analytics -->
 
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" type="text/css">
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/genericons.css" type="text/css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/genericons.css">
 		<link rel="icon" href="{{ site.baseurl }}/img/BrazaoSaoPaulo32.png" sizes="32x32" />
 		<link rel="icon" href="{{ site.baseurl }}/img/BrazaoSaoPaulo192.png" sizes="192x192" />
-
-		<style type="text/css" media="screen">
-			html {
-				margin-top: 32px !important;
-			}
-			
-			* html body {
-				margin-top: 32px !important;
-			}
-			
-			@media screen and ( max-width: 782px) {
-				html {
-					margin-top: 46px !important;
-				}
-				* html body {
-					margin-top: 46px !important;
-				}
-			}
-		</style>
 		
 		<!-- Fixes light yellow background color on AdSense ad units --> 
 		<style>
@@ -49,7 +30,7 @@
 		}
 		</style>
 
-		<style type="text/css">
+		<style>
 			.openingmap {
 				border: 0;
 				height: 300px;
@@ -88,13 +69,13 @@
 	<body class="page-template-fullwidth-page-php page no-sidebar">
 		<div id="page" class="site">
 			<a class="skip-link screen-reader-text" href="http://sampaguide.com/pt/#content">Pular para o conteúdo</a>
-			<header class="site-header" role="banner">
+			<header class="site-header">
 				<div class="site-branding">
 					<h1 class="site-title"><a href="{{ site.baseurl }}/" rel="home">{{ site.title }}</a></h1>
 					<h2 class="site-description">Um guia para se perder em São Paulo</h2>
 				</div>
 
-				<nav id="site-navigation" class="main-navigation" role="navigation">
+				<nav id="site-navigation" class="main-navigation">
 					<button class="menu-toggle">Menu</button>
 					<div class="menu-primary-menu-container">
 						<ul class="menu nav-menu">
@@ -115,13 +96,13 @@
 
 			<div id="content" class="site-content">
 				<div class="content-area">
-					<main id="main" class="site-main" role="main">
+					<main id="main" class="site-main">
 						{{ content }}
 					</main>
 				</div>
 			</div>
 
-			<footer class="site-footer" role="contentinfo">
+			<footer class="site-footer">
 				<div class="social-links">
 					<ul class="menu">
 						<li><a href="https://facebook.com/sampaguide"><span class="screen-reader-text">Facebook</span></a></li>
@@ -135,9 +116,9 @@
 			</footer>
 		</div>
 
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/portfolio-shortcode.css" type="text/css">
-		<script type="text/javascript" src="{{ site.baseurl }}/js/navigation.js"></script>
-		<script type="text/javascript" src="{{ site.baseurl }}/js/skip-link-focus-fix.js"></script>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/portfolio-shortcode.css">
+		<script src="{{ site.baseurl }}/js/navigation.js"></script>
+		<script src="{{ site.baseurl }}/js/skip-link-focus-fix.js"></script>
 
 		<!-- mesmerize -->
 		<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
