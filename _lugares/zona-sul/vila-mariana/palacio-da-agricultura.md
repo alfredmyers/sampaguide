@@ -8,7 +8,7 @@ links:
   - title: Site do Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)
     url: http://www.mac.usp.br/mac/conteudo/institucional/institucional.asp
 ---
-O Palácio da Agricultura foi projetado por Oscar Niemeyer em 1951 como parte do conjunto arquitetônico do <a title="Parque Ibirapuera" href="http://sampaguide.com/pt/regioes/zona-sul/vila-mariana/parque-ibirapuera/">Parque Ibirapuera</a>.
+O Palácio da Agricultura foi projetado por Oscar Niemeyer em 1951 como parte do conjunto arquitetônico do [Parque Ibirapuera](http://sampaguide.com/pt/regioes/zona-sul/vila-mariana/parque-ibirapuera/).
 
 Construído inicialmente para abrigar a Secretaria da Agricultura, o edifício foi finalizado em 1953.
 

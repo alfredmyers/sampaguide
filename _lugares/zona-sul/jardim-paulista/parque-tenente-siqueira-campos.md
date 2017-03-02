@@ -8,7 +8,7 @@ links:
   - title: Portal da Prefeitura da Cidade de São Paulo
     url: http://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_centrooeste/index.php?p=5773
   - title: Parque Trianon
-    url: http://www.cidadedesaopaulo.com/sp/br/o-que-visitar/atrativos/pontos-turisticos/4083-parque-trianon"
+    url: http://www.cidadedesaopaulo.com/sp/br/o-que-visitar/atrativos/pontos-turisticos/4083-parque-trianon
   - title: Wikipedia
     url: http://pt.wikipedia.org/wiki/Parque_Trianon
 ---
