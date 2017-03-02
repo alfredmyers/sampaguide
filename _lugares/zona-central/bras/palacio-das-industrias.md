@@ -14,8 +14,8 @@ A construção foi iniciada em 30 de maio de 1911 e o edifício inaugurado em 29
 
 Entre 1947 e 1968, foi sede da Assembléia Legislativa.
 
-Em 1992, o Palácio das Indústrias recebe a sede da prefeitura vinda do Pavilhão Manuel da Nóbrega no <a title="Parque Ibirapuera" href="http://sampaguide.com/pt/regioes/zona-sul/vila-mariana/parque-ibirapuera/">Parque do Ibirapuera</a>.
+Em 1992, o Palácio das Indústrias recebe a sede da prefeitura vinda do Pavilhão Manuel da Nóbrega no [Parque Ibirapuera]({{ site.baseurl }}/regioes/zona-sul/vila-mariana/parque-ibirapuera/).
 
-Em 2004, a sede da prefeitura é transferida para o Edifício Matarazzo, no <a title="Centro" href="http://sampaguide.com/pt/regioes/zona-central/centro/">Centro</a>.
+Em 2004, a sede da prefeitura é transferida para o Edifício Matarazzo, no [Centro]({{ site.baseurl }}/regioes/zona-central/centro/).
 
 Em 2009, passa a abrigar o <a href="http://sampaguide.com/pt/organizacoes/catavento-cultural-e-educacional/">Catavento Cultural e Educacional</a>.
