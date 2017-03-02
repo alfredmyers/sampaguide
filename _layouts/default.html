@@ -68,7 +68,7 @@
 
 	<body class="page-template-fullwidth-page-php page no-sidebar">
 		<div id="page" class="site">
-			<a class="skip-link screen-reader-text" href="http://sampaguide.com/pt/#content">Pular para o conteúdo</a>
+			<a class="skip-link screen-reader-text" href="#content">Pular para o conteúdo</a>
 			<header class="site-header">
 				<div class="site-branding">
 					<h1 class="site-title"><a href="{{ site.baseurl }}/" rel="home">{{ site.title }}</a></h1>
@@ -80,7 +80,7 @@
 					<div class="menu-primary-menu-container">
 						<ul class="menu nav-menu">
 							<li><a href="http://sampaguide.com/pt/blog/">Blog</a></li>
-							<li class="menu-item-has-children"><a href="{{ site.baseurl }}/regioes/">Regiões</a>
+							<li class="menu-item-has-children"><a href="http://sampaguide.com/pt/regioes/">Regiões</a>
 								<ul class="sub-menu">
 									{% assign regioes = site.regioes | sort: 'order' %}
 									{% for folder in regioes %}
