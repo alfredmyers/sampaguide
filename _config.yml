@@ -29,7 +29,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - [vendor]
+  - vendor
 
 google_api_key: AIzaSyBLAgNaPxf28D8gsfcvuAqie4xrLrper2Y
 
