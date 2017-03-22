@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<h1 class="entry-title">{{ page.title }}</h1>
+<h1 class="mx3 my3">{{ page.title }}</h1>
 {% include googlemapsembed.html pb=page.pb %} 
 {{ content }}
-<div class="photospheresection">
-<h2>Panorama 360 graus</h2>
-<iframe width="300" height="150" src="https://www.google.com/maps/embed?pb={{ page.panorama }}" class="photosphere"></iframe>
-</div>
+{% if page.panorama %}
+<h2 class="mx3 my3">Panorama 360 graus</h2>
+<amp-iframe width="300" height="300" src="https://www.google.com/maps/embed?pb={{ page.panorama }}" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" class="mt3 mx3"></amp-iframe>
+{% endif %}
 {% if page.links %}
-<h2>Para Saber Mais</h2>
+<h2 class="mx3 my3">Para Saber Mais</h2>
 <ul>
 {% for link in page.links %}
     <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>

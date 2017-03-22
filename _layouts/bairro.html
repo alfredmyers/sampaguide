@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<h1 class="entry-title">{{ page.title }}</h1>
+<h1 class="mx3 my3">{{ page.title }}</h1>
 {% include googlemapsembed.html pb=page.pb %} 
 {{ content }}
 {% assign bairro = page.url | split: "/" | last %}
 {% assign lugares = site.lugares | where: 'bairro', bairro %}
 {% assign size = lugares.size %}
 {% if size > 0 %}
-<h2>Pontos de Interesse</h2>
+<h2 class="mx3 my3">Pontos de Interesse</h2>
 <ul>
     {% for lugar in lugares %}
     <li><a href="{{ site.baseurl }}{{ lugar.url }}">{{ lugar.title }}</a></li>
@@ -16,7 +16,7 @@ layout: default
 </ul>
 {% endif %}
 {% if page.links %}
-<h2>Para Saber Mais</h2>
+<h2 class="mx3 my3">Para Saber Mais</h2>
 <ul>
 {% for link in page.links %}
     <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
