@@ -40,6 +40,7 @@ limitations under the License.
 <script custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js" async=""></script>
 <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async=""></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext'>
 
@@ -66,7 +67,10 @@ p {margin-left:1.5rem;margin-right:1.5rem}
     }
   }
   </script>
+
   </amp-analytics>
+  
+  <amp-install-serviceworker src="{{ site.baseurl }}/service-worker.js" layout="nodisplay"></amp-install-serviceworker>
 
   <!-- Start Navbar -->
   <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4">
