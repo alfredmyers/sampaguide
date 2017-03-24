@@ -12,6 +12,7 @@
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 
   <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.content | strip_html | smartify | truncate: 300 }}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -140,8 +141,7 @@ p {margin-left:1.5rem;margin-right:1.5rem}
 <p class="mt3 mx3 bold">Compartilhe:
 <div class="ampstart-social-box mx3">
   <amp-social-share type="facebook" data-param-text="Hello world" data-param-app_id="1207893439331588"></amp-social-share>
-  <amp-social-share type="twitter"></amp-social-share>
-  <amp-social-share type="pinterest"></amp-social-share>
+  <amp-social-share type="twitter" data-param-text="'{{ page.title }}' via @{{ site.twitter_username }}"></amp-social-share>
   <amp-social-share type="gplus"></amp-social-share>
   <amp-social-share type="email"></amp-social-share>
 </div>
