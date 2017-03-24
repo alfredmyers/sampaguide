@@ -11,6 +11,7 @@
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 
+  <meta property="fb:app_id" content="{{ site.facebook_app_id }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.content | strip_html | smartify | truncate: 300 }}">
   <meta property="og:type" content="article">
@@ -141,7 +142,7 @@ p {margin-left:1.5rem;margin-right:1.5rem}
 <!-- Start Socialbox -->
 <p class="mt3 mx3 bold">Compartilhe:
 <div class="ampstart-social-box mx3">
-  <amp-social-share type="facebook" data-param-text="Hello world" data-param-app_id="1207893439331588"></amp-social-share>
+  <amp-social-share type="facebook" data-param-text="Hello world" data-param-app_id="{{ site.facebook_app_id }}"></amp-social-share>
   <amp-social-share type="twitter" data-param-text="'{{ page.title }}' via @{{ site.twitter_username }}"></amp-social-share>
   <amp-social-share type="gplus"></amp-social-share>
   <amp-social-share type="email"></amp-social-share>
