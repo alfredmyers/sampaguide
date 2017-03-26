@@ -142,10 +142,16 @@ p {margin-left:1.5rem;margin-right:1.5rem}
 <!-- Start Socialbox -->
 <p class="mt3 mx3 bold">Compartilhe:
 <div class="ampstart-social-box mx3">
-  <amp-social-share type="facebook" data-param-text="Hello world" data-param-app_id="{{ site.facebook_app_id }}"></amp-social-share>
-  <amp-social-share type="twitter" data-param-text="'{{ page.title }}' via @{{ site.twitter_username }}"></amp-social-share>
-  <amp-social-share type="gplus"></amp-social-share>
+  <amp-social-share type="facebook" data-param-app_id="{{ site.facebook_app_id }}"></amp-social-share>
+  <amp-social-share type="twitter" data-param-text="'TITLE' via @{{ site.twitter_username }}"></amp-social-share>
+  {% if page.flickr_id %}
+  <amp-social-share type="pinterest" data-param-media="{{ page.flickr_id }}_{{ page.secret1600 }}_h.jpg"></amp-social-share>
+  {% endif %}
+  <amp-social-share type="whatsapp"></amp-social-share>
   <amp-social-share type="email"></amp-social-share>
+  <amp-social-share type="gplus"></amp-social-share>
+  <amp-social-share type="linkedin"></amp-social-share>
+  <amp-social-share type="tumblr"></amp-social-share>
 </div>
 <!-- End Socialbox -->
 
