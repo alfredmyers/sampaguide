@@ -1,15 +1,23 @@
 ---
 layout: default
 ---
-<h1 class="mx3 my3">{{ page.title }}</h1>
+<h1 class="m3">{{ page.title }}</h1>
 {% include googlemapsembed.html pb=page.pb %} 
 {{ content }}
+{% if page.photoset %}
+<h2 class="mx3 mt3">Galeria de Fotos</h2>
+<amp-carousel type="slides" layout="responsive" width=500 height=500>
+{% for photo in page.photoset.photos %}
+    <amp-img class="m3" layout="responsive" width=500 height={{ photo.height }} src="https://farm{{ photo.farm }}.staticflickr.com/{{ photo.server }}/{{ photo.id }}_{{ photo.secret }}.jpg" alt="{{ photo.description }}"></amp-img>
+{% endfor %}
+</amp-carousel>
+{% endif %}
 {% if page.panorama %}
-<h2 class="mx3 my3">Panorama 360 graus</h2>
+<h2 class="m3">Panorama 360 graus</h2>
 <amp-iframe width="300" height="300" src="https://www.google.com/maps/embed?pb={{ page.panorama }}" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" class="mt3 mx3"></amp-iframe>
 {% endif %}
 {% if page.links %}
-<h2 class="mx3 my3">Para Saber Mais</h2>
+<h2 class="m3">Para Saber Mais</h2>
 <ul>
 {% for link in page.links %}
     <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
