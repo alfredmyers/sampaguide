@@ -1,9 +1,6 @@
 ---
 title: "Zona Leste"
 layout: regiao
-flickr_id: "https://c1.staticflickr.com/8/7606/16282161444"
-secret: "d3dbcf7992"
-secret1600: "fff5604e57"
-secret2048: "2d53c516f8"
+photo_id: "16282161444"
 order: 4
 ---
