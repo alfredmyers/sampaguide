@@ -4,12 +4,13 @@ layout: default
 <h1 class="m3">{{ page.title }}</h1>
 {% include googlemapsembed.html pb=page.pb %} 
 {{ content }}
-{% if page.photoset %}
+{% assign photos = site.data.flickr.places[page.title] %}
+{% if photos %}
 <h2 class="mx3 mt3">Galeria de Fotos</h2>
 <amp-carousel type="slides" layout="responsive" width=500 height=500>
-{% for photo in page.photoset.photos %}
-{% capture photo_base_url %}https://farm{{ photo.farm }}.staticflickr.com/{{ photo.server }}/{{ photo.id }}_{{ photo.secret }}{% endcapture %}
-    <amp-img class="m3" layout="responsive" width=500 height={{ photo.height }} src="{{ photo_base_url }}.jpg" srcset="{{ photo_base_url }}_t.jpg 100w, {{ photo_base_url }}_m.jpg 240w, {{ photo_base_url }}_n.jpg 320w, {{ photo_base_url }}.jpg 500w, {{ photo_base_url }}_z.jpg 640w, {{ photo_base_url }}_c.jpg 800w, {{ photo_base_url }}_b.jpg 1024w" alt="{{ photo.description }}"></amp-img>
+{% for photo_id in photos %}
+{% assign photo = site.data.flickr.photos[photo_id] %}
+    <amp-img class="m3" layout="responsive" width=500 height={{ photo.height }} src="{{ photo.src }}" srcset="{{ photo.srcset }}" alt="{{ photo.alt }}"></amp-img>
 {% endfor %}
 </amp-carousel>
 {% endif %}
