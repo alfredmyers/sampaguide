@@ -8,4 +8,4 @@ Embora o poder público priorize e os meios de comunicação dêem muito destaq
 
 Não se trata de abandonar esses meios de transporte tão necessários, mas sim de relembrar que uma vez que estejamos numa determinada região da cidade é possível explorar o entorno a pé.
 
-<em>Keep exploring!</em>
+*Keep exploring!*
