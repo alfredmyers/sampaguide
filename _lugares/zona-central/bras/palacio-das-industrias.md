@@ -3,6 +3,7 @@ title: Palácio das Indústrias
 layout: lugar
 bairro: bras
 pb: "!1m18!1m12!1m3!1d3657.6734126583447!2d-46.627730999999955!3d-23.544245999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58fe6597b5ab%3A0xb5320d52c494e282!2sMuseu+Catavento+Cultural+e+Educacional!5e0!3m2!1sen!2sbr!4v1427339922320"
+location: Museu+Catavento+Cultural+e+Educacional
 panorama: "!1m0!3m2!1sen!2s!4v1428695706154!6m8!1m7!1ssPt4tZ4Rm8sAAAQY9ObKgw!2m2!1d-23.544723!2d-46.627092!3f0!4f6.68486591402592!5f0.7820865974627469"
 links: 
   - title: Palácio das Indústrias no Wikipedia
