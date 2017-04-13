@@ -12,7 +12,7 @@ links:
 ---
 A Pinacoteca do Estado de São Paulo é o mais antigo museu de arte do estado e por muitos anos teve uma estreita relação com o Liceu de Artes e Ofícios de São Paulo.
 
-Em 1897, Ramos de Azevedo - que dirigia o Liceu - conseguiu do governo do estado a doação de um terreno desmembrado do <a title="Jardim da Luz" href="http://sampaguide.com/pt/regioes/zona-central/bom-retiro/jardim-da-luz/">Jardim da Luz</a> para a construção da sede do Liceu de Artes e Ofícios de São Paulo.
+Em 1897, Ramos de Azevedo - que dirigia o Liceu - conseguiu do governo do estado a doação de um terreno desmembrado do [Jardim da Luz][Jardim da Luz] para a construção da sede do Liceu de Artes e Ofícios de São Paulo.
 
 O projeto do edifício ficou a cargo do escritório do próprio Ramos de Azevedo com colaboração de Domiziano Rossi.
 
@@ -40,6 +40,8 @@ Em junho de 1997, para acelerar a conclusão da reforma, o prédio é fechado �
 
 De volta à sede própria, o museu é reaberto ao público em fevereiro de 1998.
 
-Em 1999 o <a title="Jardim da Luz" href="http://sampaguide.com/pt/regioes/zona-central/bom-retiro/jardim-da-luz/">Jardim da Luz</a> passa por ampla reforma e reabre com a exposição Esculturas Monumentais Européias, marcando o início de uma maior interação entre o museu e o parque.
+Em 1999 o [Jardim da Luz][Jardim da Luz] passa por ampla reforma e reabre com a exposição Esculturas Monumentais Européias, marcando o início de uma maior interação entre o museu e o parque.
 
-Em 2004, o museu incorpora o antigo prédio do DOPS (Departamento de Ordem Política e Social). O novo espaço é denominado <a title="Estação Pinacoteca" href="http://sampaguide.com/pt/regioes/zona-central/santa-ifigenia/estacao-pinacoteca/">Estação Pinacoteca</a>.
+Em 2004, o museu incorpora o antigo prédio do DOPS (Departamento de Ordem Política e Social). O novo espaço é denominado [Estação Pinacoteca](http://sampaguide.com/pt/regioes/zona-central/santa-ifigenia/estacao-pinacoteca/).
+
+[Jardim da Luz]: http://sampaguide.com/pt/regioes/zona-central/bom-retiro/jardim-da-luz/

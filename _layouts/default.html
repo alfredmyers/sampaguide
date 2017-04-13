@@ -92,12 +92,12 @@ p {margin-left:1.5rem;margin-right:1.5rem}
 <!-- Start Dropdown-inline -->
 <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
   <section>
-    <header><a href="{{ site.baseurl }}{{ regiao.url }}" title="{{ regiao.title }}" class="text-decoration-none">{{ regiao.title }}</a></header>
+    <header><a href="{{ site.baseurl }}{{ regiao.url }}" class="text-decoration-none">{{ regiao.title }}</a></header>
     <ul class="ampstart-dropdown-items list-reset m0 p0">
 {% assign slug = regiao.title | slugify %}
 {% assign bairros = site.bairros | where: 'regiao', slug %}
 {% for bairro in bairros %}
-        <li class="ampstart-dropdown-item"><a href="{{ site.baseurl }}{{ bairro.url }}" title="{{ bairro.title }}">{{ bairro.title }}</a></li>
+        <li class="ampstart-dropdown-item"><a href="{{ site.baseurl }}{{ bairro.url }}">{{ bairro.title }}</a></li>
 {% endfor %}
 
     </ul>

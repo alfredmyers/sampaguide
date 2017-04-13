@@ -19,7 +19,7 @@ layout: default
 <h2 class="mx3 my3">Para Saber Mais</h2>
 <ul>
 {% for link in page.links %}
-    <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
+    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
 {% endfor %}
 </ul>
 {% endif %}
