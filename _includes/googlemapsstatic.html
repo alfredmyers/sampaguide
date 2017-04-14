@@ -1,2 +1,4 @@
-<img width="640" height="300" src="https://maps.googleapis.com/maps/api/staticmap?center={{ include.center }}&size=640x300&key={{ site.google_api_key }}&scale=1" alt="{{ include.alt }}"
-        srcset="https://maps.googleapis.com/maps/api/staticmap?center={{ include.center }}&size=300x200&key={{ site.google_api_key }}&scale=1 300w, https://maps.googleapis.com/maps/api/staticmap?center={{ include.center }}&size=640x300&key={{ site.google_api_key }}&scale=1 640w, https://maps.googleapis.com/maps/api/staticmap?center={{ include.center }}&size=500x300&key={{ site.google_api_key }}&scale=1 500w" sizes="(max-width: 640px) 100vw, 640px">
+{% assign title = page.title | url_encode %}
+{% assign location = page.location | default: title %}
+{% capture map_url %}https://maps.googleapis.com/maps/api/staticmap?key={{ site.google_api_key }}&scale=2&markers={{ location }}&size={% endcapture %}
+<amp-img class="mt3 mx3" layout="responsive" width="300" height="300" alt="Mapa com o local e seu entorno" src="{{ map_url }}300x300" srcset="{{ map_url }}100x100 100w, {{ map_url }}240x240 240w, {{ map_url }}320x320 320w, {{ map_url }}500x500 500w, {{ map_url }}640x640 640w"></amp-img>
