@@ -2,8 +2,9 @@
 layout: default
 title: SampaGuide - Um guia para explorar e “se perder” na cidade de São Paulo
 permalink: index.html
+location: sao+paulo
 ---
-{% include googlemapsembed.html pb="!1m18!1m12!1m3!1d467692.0487341582!2d-46.87548831602552!3d-23.681531486742294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o+Paulo%2C+State+of+S%C3%A3o+Paulo!5e0!3m2!1sen!2sbr!4v1486146988598" %} 
+{% include googlemapsstatic.html %} 
 {% assign regioes = site.regioes | sort: 'order' %}
 {% for regiao in regioes %}
 {% assign photo = site.data.flickr.photos[regiao.photo_id] %}
