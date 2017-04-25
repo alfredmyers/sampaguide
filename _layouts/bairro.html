@@ -15,11 +15,3 @@ layout: default
     {% endfor %}
 </ul>
 {% endif %}
-{% if page.links %}
-<h2 class="mx3 my3">Para Saber Mais</h2>
-<ul>
-{% for link in page.links %}
-    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
