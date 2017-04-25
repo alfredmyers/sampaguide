@@ -26,3 +26,10 @@ layout: default
 {% endfor %}
 </ul>
 {% endif %}
+{% assign nearby = site.data.nearby[page.title] %}
+{% if nearby %}
+<h2 class="mx3 mt3">Lugares Próximos</h2>
+<ul>{% for place in nearby %}{% assign lugar = site.lugares | where: "title", place | first%}{%if lugar %}
+    <li><a href="{{ site.baseurl }}{{ lugar.url }}">{{ place }}</a></li>
+{% endif %}{% endfor %}</ul>
+{% endif %}

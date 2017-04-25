@@ -1,0 +1,152 @@
+{
+  "Museu de Arte Sacra de São Paulo": [
+    "Pinacoteca do Estado de São Paulo",
+    "Estação da Luz"
+  ],
+  "Estação Pinacoteca": [
+    "Pinacoteca do Estado de São Paulo",
+    "Estação Júlio Prestes",
+    "Sala São Paulo",
+    "Estação da Luz"
+  ],
+  "MuBE - Museu Brasileiro da Escultura": [
+    "MIS - Museu da Imagem e do Som"
+  ],
+  "Parque Ibirapuera": [
+    "MAC - Museu de Arte Contemporânea USP",
+    "Palácio da Agricultura"
+  ],
+  "Estação Júlio Prestes": [
+    "Sala São Paulo",
+    "Estação da Luz",
+    "Estação Pinacoteca"
+  ],
+  "Palácio das Indústrias": [
+    "Mercado Municipal"
+  ],
+  "MASP - Museu de Arte de São Paulo Assis Chateaubriand": [
+    "Centro Cultural FIESP - Ruth Cardoso",
+    "Parque Tenente Siqueira Campos"
+  ],
+  "Theatro Municipal": [
+    "Caixa Cultural",
+    "Centro Cultural do Banco do Brasil",
+    "Mosteiro São Bento",
+    "Pateo do Collegio",
+    "Faculdade de Direito da Universidade de São Paulo"
+  ],
+  "Solar da Marquesa de Santos": [
+    "Caixa Cultural",
+    "Centro Cultural do Banco do Brasil",
+    "Mosteiro São Bento",
+    "Pateo do Collegio",
+    "Catedral da Sé",
+    "Faculdade de Direito da Universidade de São Paulo",
+    "Igreja da Ordem Terceira do Carmo (Nossa Senhora do Carmo)"
+  ],
+  "Centro Cultural do Banco do Brasil": [
+    "Caixa Cultural",
+    "Mosteiro São Bento",
+    "Pateo do Collegio",
+    "Solar da Marquesa de Santos",
+    "Theatro Municipal",
+    "Catedral da Sé",
+    "Faculdade de Direito da Universidade de São Paulo",
+    "Igreja da Ordem Terceira do Carmo (Nossa Senhora do Carmo)"
+  ],
+  "Caixa Cultural": [
+    "Centro Cultural do Banco do Brasil",
+    "Mosteiro São Bento",
+    "Pateo do Collegio",
+    "Solar da Marquesa de Santos",
+    "Catedral da Sé",
+    "Faculdade de Direito da Universidade de São Paulo",
+    "Igreja da Ordem Terceira do Carmo (Nossa Senhora do Carmo)"
+  ],
+  "Catavento Cultural": [
+    "Mercado Municipal"
+  ],
+  "MIS - Museu da Imagem e do Som": [
+    "MuBE - Museu Brasileiro da Escultura"
+  ],
+  "Estação da Luz": [
+    "Pinacoteca do Estado de São Paulo",
+    "Estação Júlio Prestes",
+    "Sala São Paulo",
+    "Museu de Arte Sacra de São Paulo",
+    "Estação Pinacoteca"
+  ],
+  "Palácio da Agricultura": [
+    "Parque Ibirapuera"
+  ],
+  "Pateo do Collegio": [
+    "Caixa Cultural",
+    "Centro Cultural do Banco do Brasil",
+    "Mosteiro São Bento",
+    "Solar da Marquesa de Santos",
+    "Catedral da Sé",
+    "Faculdade de Direito da Universidade de São Paulo",
+    "Igreja da Ordem Terceira do Carmo (Nossa Senhora do Carmo)"
+  ],
+  "Catedral da Sé": [
+    "Caixa Cultural",
+    "Centro Cultural do Banco do Brasil",
+    "Pateo do Collegio",
+    "Solar da Marquesa de Santos",
+    "Faculdade de Direito da Universidade de São Paulo",
+    "Igreja da Ordem Terceira do Carmo (Nossa Senhora do Carmo)"
+  ],
+  "Parque Tenente Siqueira Campos": [
+    "MASP - Museu de Arte de São Paulo Assis Chateaubriand",
+    "Centro Cultural FIESP - Ruth Cardoso"
+  ],
+  "MAC - Museu de Arte Contemporânea USP": [
+    "Parque Ibirapuera"
+  ],
+  "Faculdade de Direito da Universidade de São Paulo": [
+    "Caixa Cultural",
+    "Centro Cultural do Banco do Brasil",
+    "Pateo do Collegio",
+    "Solar da Marquesa de Santos",
+    "Theatro Municipal",
+    "Catedral da Sé",
+    "Igreja da Ordem Terceira do Carmo (Nossa Senhora do Carmo)"
+  ],
+  "Pinacoteca do Estado de São Paulo": [
+    "Sala São Paulo",
+    "Estação da Luz",
+    "Museu de Arte Sacra de São Paulo",
+    "Estação Pinacoteca"
+  ],
+  "Centro Cultural FIESP - Ruth Cardoso": [
+    "MASP - Museu de Arte de São Paulo Assis Chateaubriand",
+    "Parque Tenente Siqueira Campos"
+  ],
+  "Sala São Paulo": [
+    "Pinacoteca do Estado de São Paulo",
+    "Estação Júlio Prestes",
+    "Estação da Luz",
+    "Estação Pinacoteca"
+  ],
+  "Mercado Municipal": [
+    "Catavento Cultural",
+    "Mosteiro São Bento",
+    "Palácio das Indústrias"
+  ],
+  "Mosteiro São Bento": [
+    "Caixa Cultural",
+    "Centro Cultural do Banco do Brasil",
+    "Mercado Municipal",
+    "Pateo do Collegio",
+    "Solar da Marquesa de Santos",
+    "Theatro Municipal"
+  ],
+  "Igreja da Ordem Terceira do Carmo (Nossa Senhora do Carmo)": [
+    "Caixa Cultural",
+    "Centro Cultural do Banco do Brasil",
+    "Pateo do Collegio",
+    "Solar da Marquesa de Santos",
+    "Catedral da Sé",
+    "Faculdade de Direito da Universidade de São Paulo"
+  ]
+}
