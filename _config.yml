@@ -27,6 +27,7 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -37,12 +38,13 @@ google_api_key: AIzaSyBLAgNaPxf28D8gsfcvuAqie4xrLrper2Y
 collections:
   regioes:
     output: true
+    permalink: /pt/regioes/:path/
   bairros:
     output: true
-    permalink: /regioes/:path/
+    permalink: /pt/regioes/:path/
   lugares:
     output: true
-    permalink: /regioes/:path/
+    permalink: /pt/regioes/:path/
 
 permalink: pretty
 
