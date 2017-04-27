@@ -28,7 +28,7 @@ Em 1924, o Ginásio do Estado é transferido para outra localidade liberando esp
 
 A partir da morte de Ramos de Azevedo em 1928, a situação da Pinacoteca começa a se deteriorar e em 1930, o prédio do museu sofre um incêndio onde é destruída grande parte dos registros históricos do Liceu. Após os reparos, o governo do estado determina a cessão de toda a ala direita do prédio para abrigar o Grupo Escolar Prudente de Moraes. Em outubro do mesmo ano durante a Revolução de 1930, o museu é fechado e o edifício cedido para abrigar os soldados da Primeira Legião, vindos do Paraná. O acervo da Pinacoteca começa a ser disperso por diversos órgãos públicos.
 
-Na Revolução Constitucionalista de 1932, o edifício é requisitado para abrigar o Batalhão Militar Santos Dumont. Os setores administrativos da Pinacoteca são transferidos para um edifício na Rua Onze de Agosto, [Sé]({{ site.baseurl }}/regioes/zona-central/se/), onde funcionava a Imprensa Oficial do Estado de São Paulo. O Liceu, por sua vez, transfere para suas instalações na Rua Cantareira os poucos setores que ainda funcionam no edifício da Luz.
+Na Revolução Constitucionalista de 1932, o edifício é requisitado para abrigar o Batalhão Militar Santos Dumont. Os setores administrativos da Pinacoteca são transferidos para um edifício na Rua Onze de Agosto, {% assign bairro = site.bairros | where: "title", "Sé" | first %}[Sé]({{ site.baseurl }}{{ bairro.url }}), onde funcionava a Imprensa Oficial do Estado de São Paulo. O Liceu, por sua vez, transfere para suas instalações na Rua Cantareira os poucos setores que ainda funcionam no edifício da Luz.
 
 Em 1936, a Pinacoteca do Estado de São Paulo reabre ao público no edifício da Rua Onze de Agosto.
 
@@ -36,7 +36,7 @@ Nos anos seguintes, a prefeitura acaba desapropriando todo um quarteirão da Ru
 
 Entre 1994 e 1998, o edifício da Pinacoteca do Estado passa por uma grande reforma. O projeto concebido por Paulo Mendes da Rocha opta por cobrir os vazios internos do edifício com clarabóias de aço e vidro laminado e interligar os pátios laterais com passarelas metálicas.
 
-Em junho de 1997, para acelerar a conclusão da reforma, o prédio é fechado à visitação e a pinacoteca passa a funcionar temporariamente no Pavilhão Padre Manoel da Nóbrega do [Parque Ibirapuera]({{ site.baseurl }}/regioes/zona-sul/vila-mariana/parque-ibirapuera/)
+Em junho de 1997, para acelerar a conclusão da reforma, o prédio é fechado à visitação e a pinacoteca passa a funcionar temporariamente no Pavilhão Padre Manoel da Nóbrega do {% assign lugar = site.lugares | where: "title", "Parque Ibirapuera" | first %}[Parque Ibirapuera]({{ site.baseurl }}{{ lugar.url }})
 
 De volta à sede própria, o museu é reaberto ao público em fevereiro de 1998.
 

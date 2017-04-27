@@ -12,7 +12,7 @@ links:
 ---
 O Museu de Arte de São Paulo Assis Chateaubriand, mais conhecido pela sigla MASP, foi criado em 1947 por Assis Chateaubriand e Pietro Maria Bardi - este último, diretor do museu por 45 anos.
 
-Inicialmente, o MASP ficava localizado no Edifício Guilherme Guinle na Rua 7 de Abril, 230, [República]({{ site.baseurl }}/regioes/zona-central/republica/), mas em novembro de 1968 ganhou sede própria no endereço atual na Av. Paulista, 1578, [Bela Vista]({{ site.baseurl }}/regioes/zona-central/bela-vista/).
+Inicialmente, o MASP ficava localizado no Edifício Guilherme Guinle na Rua 7 de Abril, 230, {% assign bairro = site.bairros | where: "title", "República" | first %}[República]({{ site.baseurl }}{{ bairro.url }}), mas em novembro de 1968 ganhou sede própria no endereço atual na Av. Paulista, 1578, {% assign bairro = site.bairros | where: "title", "Bela Vista" | first %}[Bela Vista]({{ site.baseurl }}{{ bairro.url}}).
 
 O terreno onde o prédio foi construído foi doado anos antes por Joaquim Eugênio de Lima à prefeitura de São Paulo sob a condição de que se mantivesse a vista para o centro da cidade e a Serra da Cantareira através do Vale do Anhangabaú.
 

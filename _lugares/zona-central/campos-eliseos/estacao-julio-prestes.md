@@ -14,7 +14,7 @@ Em 2 de fevereiro de 1870, empresários sorocabanos liderados pelo cidadão aust
 
 Em 10 de julho de 1875, inauguram o primeiro trecho da ferrovia ligando a Estação São Paulo e a fábrica de ferro de Ipanema, passando por Sorocaba.
 
-Originalmente, a Estação São Paulo localizava-se na esquina da Rua Mauá com a Rua General Couto Magalhães ao lado da [Estação da Luz]({{ site.baseurl }}/regioes/zona-central/centro/estacao-da-luz/) que era operada pela São Paulo Railway. A localização facilitava o bandeamento das mercadorias vindas do sudoeste e oeste paulista para a São Paulo Railway - então, a única ferrovia que fazia o trajeto da capital ao porto de Santos.
+Originalmente, a Estação São Paulo localizava-se na esquina da Rua Mauá com a Rua General Couto Magalhães ao lado da {% assign lugar = site.lugares | where: "title", "Estação da Luz" | first %}[Estação da Luz]({{ site.baseurl }}{{ lugar.url }}) que era operada pela São Paulo Railway. A localização facilitava o bandeamento das mercadorias vindas do sudoeste e oeste paulista para a São Paulo Railway - então, a única ferrovia que fazia o trajeto da capital ao porto de Santos.
 
 Inicialmente concebida para transportar as safras de algodão, as receitas geradas pelo transporte desse produto logo se revelaram insuficientes, levando a ferrovia a enfrentar sérias dificuldades financeiras. Em assembleia geral realizada no dia 15 de maio de 1880, Maylasky foi demitido e substituído por Francisco de Paula Mayrink.
 
