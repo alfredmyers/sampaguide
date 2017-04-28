@@ -14,7 +14,7 @@ Em fins do século XIX, a cidade de São Paulo tinha vários teatros como o Apol
 
 Em 1895, iniciam-se na Câmara Municipal as discussões para a construção de um teatro voltado especificamente para a exibição de ópera.
 
-No começo de 1898 é aprovada a <a href="http://sampaguide.com/pt/wp-content/uploads/sites/2/2015/06/L336.pdf">Lei nº 336 de 24 de Janeiro de 1898</a> que cria condições atrativas para que teatros possam ser construídos pela iniciativa privada, entre elas, isenção fiscal por 50 anos e desapropriação por utilidade pública do terreno que fosse escolhido para a construção do teatro.
+No começo de 1898 é aprovada a [Lei nº 336 de 24 de Janeiro de 1898]({{ site.baseurl }}/content/L336.pdf) que cria condições atrativas para que teatros possam ser construídos pela iniciativa privada, entre elas, isenção fiscal por 50 anos e desapropriação por utilidade pública do terreno que fosse escolhido para a construção do teatro.
 
 Em 15 de fevereiro de 1898 é lançado o <a href="http://acervo.estadao.com.br/pagina/#!/18980222-7037-nac-0003-999-3-not">edital da concorrência pública</a> para a construção do Theatro Municipal.
 
@@ -26,9 +26,9 @@ Pelo arranjo, o projeto fica a cargo de Cláudio Rossi, o detalhamento do projet
 
 O local escolhido para a construção foi um terreno no Morro do Chá, perto do Viaduto do Chá na esquina oposta de onde seria construído o Novo Theatro São José. No terreno estava instalada a serraria do empresário alemão Gustavo Sydow.
 
-Por volta de 1902, o <a href="http://acervo.estadao.com.br/pagina/#!/19020506-8561-nac-0002-999-2-not">terreno é desapropriado pelo governo do Estado de São Paulo</a> e com a <a href="http://sampaguide.com/pt/wp-content/uploads/sites/2/2015/06/L627.pdf">Lei nº 627 de 7 de Fevereiro de 1903</a> o prefeito recebe autorização para negociar com o estado a transferência do terreno para a municipalidade.
+Por volta de 1902, o <a href="http://acervo.estadao.com.br/pagina/#!/19020506-8561-nac-0002-999-2-not">terreno é desapropriado pelo governo do Estado de São Paulo</a> e com a [Lei nº 627 de 7 de Fevereiro de 1903]({{ site.baseurl }}/content/L627.pdf) o prefeito recebe autorização para negociar com o estado a transferência do terreno para a municipalidade.
 
-Pouco mais de dois meses depois, a Câmara Municipal autoriza a construção do Theatro Municipal com a <a href="http://sampaguide.com/pt/wp-content/uploads/sites/2/2015/06/L643.pdf">Lei nº 643 de 25 de Abril de 1903</a>.
+Pouco mais de dois meses depois, a Câmara Municipal autoriza a construção do Theatro Municipal com a [Lei nº 643 de 25 de Abril de 1903]({{ site.baseurl }}/content/L643.pdf).
 
 As obras são iniciadas em 26 de junho e em agosto Cláudio Rossi <a href="http://acervo.estadao.com.br/pagina/#!/19030826-9035-nac-0001-999-1-not">viaja à Europa</a> a fim de levar plantas e demais documentos relativos à construção a potenciais fornecedores de itens de decoração, equipamentos e maquinário.
 

@@ -22,4 +22,4 @@ O projeto arquitetônico é do inglês Charles Henry Drives inspirado no Big B
 
 Em 1946, dois dias antes do final da concessão e entrega da linha ferroviária à União, a estação foi atingida por um grande incêndio que destruiu boa parte do prédio. Durante a reconstrução, um novo andar foi adicionado ao edifício que foi entregue ao público em 1951.
 
-Na primeira metade do século 2000, o edifício passou por uma ampla reforma que adequou parte dele para receber o <a href="http://sampaguide.com/pt/organizacoes/museu-da-lingua-portuguesa/">Museu da Língua Portuguesa</a>.
+Na primeira metade do século 2000, o edifício passou por uma ampla reforma que adequou parte dele para receber o {% assign organizacao = site.organizacoes | where: "title", "Museu da Língua Portuguesa" | first %}[Museu da Língua Portuguesa]({{ site.baseurl }}{{ organizacao.url }}).

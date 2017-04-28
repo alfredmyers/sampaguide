@@ -2,7 +2,10 @@
 layout: default
 ---
 <h1 class="m3">{{ page.title }}</h1>
+{% assign openingmap = page.openingmap | default: "show" %}
+{% if openingmap == "show" %}
 {% include googlemapsstatic.html %}
+{% endif %}
 {{ content }}
 {% assign photos = site.data.flickr.places[page.title] %}
 {% if photos %}

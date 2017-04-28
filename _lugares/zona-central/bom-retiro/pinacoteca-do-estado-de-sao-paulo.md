@@ -36,7 +36,7 @@ Nos anos seguintes, a prefeitura acaba desapropriando todo um quarteirão da Ru
 
 Entre 1994 e 1998, o edifício da Pinacoteca do Estado passa por uma grande reforma. O projeto concebido por Paulo Mendes da Rocha opta por cobrir os vazios internos do edifício com clarabóias de aço e vidro laminado e interligar os pátios laterais com passarelas metálicas.
 
-Em junho de 1997, para acelerar a conclusão da reforma, o prédio é fechado à visitação e a pinacoteca passa a funcionar temporariamente no Pavilhão Padre Manoel da Nóbrega do {% assign lugar = site.lugares | where: "title", "Parque Ibirapuera" | first %}[Parque Ibirapuera]({{ site.baseurl }}{{ lugar.url }})
+Em junho de 1997, para acelerar a conclusão da reforma, o prédio é fechado à visitação e a pinacoteca passa a funcionar temporariamente no Pavilhão Padre Manoel da Nóbrega do {% assign lugar = site.lugares | where: "title", "Parque Ibirapuera" | first %}[Parque Ibirapuera]({{ site.baseurl }}{{ lugar.url }}).
 
 De volta à sede própria, o museu é reaberto ao público em fevereiro de 1998.
 

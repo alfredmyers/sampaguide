@@ -19,4 +19,4 @@ Em 1992, o Palácio das Indústrias recebe a sede da prefeitura vinda do Pavilh�
 
 Em 2004, a sede da prefeitura é transferida para o Edifício Matarazzo, no {% assign bairro = site.bairros | where: "title", "Centro" | first %}[Centro]({{ site.baseurl }}{{ bairro.url }}).
 
-Em 2009, passa a abrigar o <a href="http://sampaguide.com/pt/organizacoes/catavento-cultural-e-educacional/">Catavento Cultural e Educacional</a>.
+Em 2009, passa a abrigar o {% assign organizacao = site.organizacoes | where: "title", "Catavento Cultural e Educacional" | first %}[Catavento Cultural e Educacional]({{ site.baseurl }}{{ organizacao.url }}).

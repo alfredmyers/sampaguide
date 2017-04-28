@@ -15,4 +15,4 @@ Construído inicialmente para abrigar a Secretaria da Agricultura, o edifício f
 
 Entre 1959 e 2009, foi a sede do Departamento Estadual de Trânsito (DETRAN).
 
-Desde 2013, abriga o acervo do <a href="http://sampaguide.com/pt/organizacoes/museu-de-arte-contemporanea-da-universidade-de-sao-paulo-mac-usp/">Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)</a>.
+Desde 2013, abriga o acervo do {% assign organizacao = site.organizacoes | where: "title", "Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)" | first %}[Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)]({{ site.baseurl }}{{ organizacao.url }}).
