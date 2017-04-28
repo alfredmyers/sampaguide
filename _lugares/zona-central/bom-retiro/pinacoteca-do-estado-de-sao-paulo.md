@@ -42,6 +42,6 @@ De volta à sede própria, o museu é reaberto ao público em fevereiro de 1998.
 
 Em 1999 o [Jardim da Luz][Jardim da Luz] passa por ampla reforma e reabre com a exposição Esculturas Monumentais Européias, marcando o início de uma maior interação entre o museu e o parque.
 
-Em 2004, o museu incorpora o antigo prédio do DOPS (Departamento de Ordem Política e Social). O novo espaço é denominado [Estação Pinacoteca](http://sampaguide.com/pt/regioes/zona-central/santa-ifigenia/estacao-pinacoteca/).
+Em 2004, o museu incorpora o antigo prédio do DOPS (Departamento de Ordem Política e Social). O novo espaço é denominado {% assign lugar = site.lugares | where: "title", "Estação Pinacoteca" | first %}[Estação Pinacoteca]({{ site.baseurl }}{{ lugar.url }}).
 
-[Jardim da Luz]: http://sampaguide.com/pt/regioes/zona-central/bom-retiro/jardim-da-luz/
+{% assign lugar = site.lugares | where: "title", "Jardim da Luz" | first %}[Jardim da Luz]: {{ site.baseurl }}{{ lugar.url }}

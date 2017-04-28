@@ -1,0 +1,6 @@
+---
+title: Estação Pinacoteca
+layout: lugar
+bairro: santa-ifigenia
+pb: "!1m18!1m12!1m3!1d3657.9338364294063!2d-46.638868!3d-23.534882000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a7ca7d624f49%3A0xf876dfaf87037b84!2zRVNUQcOHw4NPIFBJTkFDT1RFQ0E!5e0!3m2!1sen!2sbr!4v1427341106503"
+---
