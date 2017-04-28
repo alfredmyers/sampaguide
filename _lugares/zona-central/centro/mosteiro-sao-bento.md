@@ -14,7 +14,7 @@ Em 1598, o frei Mauro Teixeira, religioso paulista de São Vicente, levantou uma
 
 O mosteiro foi levantado a partir de 1600 e o conjunto era inicialmente composto pela igreja e quatro celas.
 
-O local é o mais antigo em ocupação ininterrupta pela mesma instituição na cidade de São Paulo já que os jesuítas foram expulsos em mais de uma ocasião do local onde está o <a href="http://sampaguide.com/pt/regioes/zona-central/centro/pateo-do-collegio/">Pateo do Collegio</a>, marco de fundação da cidade.
+O local é o mais antigo em ocupação ininterrupta pela mesma instituição na cidade de São Paulo já que os jesuítas foram expulsos em mais de uma ocasião do local onde está o {% assign lugar = site.lugares | where: "title", "Pateo do Collegio" | first %}[Pateo do Collegio]({{ site.baseurl }}{{ lugar.url }}), marco de fundação da cidade.
 
 Em janeiro de 1650, foi lançada a pedra fundamental para uma grande ampliação patrocinada pelo bandeirante Fernão Dias Paes. Em troca do apoio financeiro, os monges lhe concederam o privilégio de ser sepultado na capela-mor da igreja do mosteiro. Até hoje os restos mortais dele e de sua esposa se encontram na cripta do mosteiro.
 
