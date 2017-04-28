@@ -45,6 +45,9 @@ collections:
   lugares:
     output: true
     permalink: /pt/regioes/:path/
+  organizacoes:
+    output: true
+    permalink: /pt/organizacoes/:path/
 
 permalink: pretty
 
