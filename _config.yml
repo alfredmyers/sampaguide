@@ -33,7 +33,7 @@ exclude:
   - Gemfile.lock
   - vendor
 
-google_api_key: AIzaSyDwZhP1VUPNiSxHKUu-3MZwalY6DIrE8DE
+google_api_key: AIzaSyBLAgNaPxf28D8gsfcvuAqie4xrLrper2Y
 
 collections:
   regioes:
