@@ -20,6 +20,18 @@ layout: default
 {% if page.panorama %}
 <h2 class="m3">Panorama 360 graus</h2>
 <amp-iframe width="300" height="300" src="https://www.google.com/maps/embed?pb={{ page.panorama }}" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" class="mt3 mx3"></amp-iframe>
+{% else %}
+{% if page.panoramas %}
+{% assign size = page.panoramas | size %}
+<h2 class="m3">Panorama{% if size > 1 %}s{% endif %} 360 graus</h2>
+{% for panorama in page.panoramas %}
+{% if panorama.title %}
+<h3 class="m3">{{ panorama.title }}</h2>
+{% endif %}
+{% assign pb = panorama.pb | default: panorama %}
+<amp-iframe width="300" height="300" src="https://www.google.com/maps/embed?pb={{ pb }}" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" class="mt3 mx3"></amp-iframe>
+{% endfor %}
+{% endif %}
 {% endif %}
 {% assign nearby = site.data.nearby[page.title] %}
 {% if nearby %}
