@@ -16,8 +16,8 @@
 title: "Sampa Guide"
 email: info@sampaguide.com
 description: Um guia visual para explorar e “se perder” na cidade de São Paulo
-baseurl: "/sampaguide" # the subpath of your site, e.g. /blog
-url: "https://alfredmyers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sampaguide.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sampaguide
 github_username:  alfredmyers
 
@@ -33,7 +33,11 @@ exclude:
   - Gemfile.lock
   - vendor
 
-google_api_key: AIzaSyBLAgNaPxf28D8gsfcvuAqie4xrLrper2Y
+# To prevent abuse, the keys are restricted by HTTP referrers. 
+# The following key is for production: sampaguide.com/*
+# Credentials (API keys) can be managed at https://console.cloud.google.com/apis/credentials
+google_api_key: AIzaSyBwiOYwQENKNAjqRdwhXrFU4oOS_gX0Gl8
+
 
 collections:
   regioes:
