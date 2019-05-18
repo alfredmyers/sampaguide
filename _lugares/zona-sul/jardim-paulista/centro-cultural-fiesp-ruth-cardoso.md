@@ -8,12 +8,12 @@ links:
   - title: Página do Centro Cultural FIESP - Ruth Cardoso no site da Federação das Indústrias do Estado de São Paulo
     url: http://www.fiesp.com.br/centro-cultural-fiesp-ruth-cardoso/
 ---
-O Centro Cultural FIESP - Ruth Cardoso foi fundado em março de 1998, então com o nome Centro Cultural FIESP.
+O Centro Cultural <abbr title="Federação das Indústrias do Estado de São Paulo">FIESP</abbr> - Ruth Cardoso foi fundado em março de <time datetime="1998">1998</time>, então com o nome Centro Cultural FIESP.
 
-Em 2008, o centro cultural foi rebatizado recebendo o nome atual em homenagem à antropóloga Ruth Cardoso, esposa do ex-presidente da república, Fernando Henrique Cardoso.
+Em <time datetime="2008">2008</time>, o centro cultural foi rebatizado recebendo o nome atual em homenagem à antropóloga Ruth Cardoso, esposa do ex-presidente da república, Fernando Henrique Cardoso.
 
-O prédio da FIESP, como é mais conhecido o edifício Luís Eulálio de Bueno Vidigal Filho, foi projetado pelo escritório Rino Levi Arquitetos Associados e inaugurado em 1979.
+O prédio da FIESP, como é mais conhecido o edifício Luís Eulálio de Bueno Vidigal Filho, foi projetado pelo escritório Rino Levi Arquitetos Associados e inaugurado em <time datetime="1979">1979</time>.
 
-Em 1998 num projeto do arquiteto Paulo Mendes da Rocha, o edifício passou por ampla reforma dos andares térreos ganhando um mezanino que hoje abriga a Galeria de Arte do Sesi - SP - parte do centro cultural.
+Em <time datetime="1998">1998</time> com projeto do arquiteto Paulo Mendes da Rocha, o edifício passou por ampla reforma dos andares térreos ganhando um mezanino que hoje abriga a Galeria de Arte do <abbr title="Serviço Social da Indústria">Sesi</abbr> - SP - parte do centro cultural.
 
 A forma piramidal do edifício garante uma posição de destaque entre os prédios da Av. Paulista.

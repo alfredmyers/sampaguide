@@ -12,17 +12,17 @@ links:
   - title: Site do Museu de Arte Sacra
     url: http://www.museuartesacra.org.br/pt/museu/museu-da-arte-sacra
 ---
-O Mosteiro da Luz, complexo que abriga o Museu de Arte Sacra, foi erguido no século XVIII pelo franciscano Antônio Sant’Anna Galvão, mais conhecido como Frei Galvão, o primeiro santo católico nascido no Brasil. A construção teve início em 2 de fevereiro de 1774 e substituiu a antiga capela construída em homenagem a Nossa Senhora da Luz, no início do século XVII.
+O Mosteiro da Luz, complexo que abriga o Museu de Arte Sacra, foi erguido no século XVIII pelo franciscano Antônio Sant’Anna Galvão, mais conhecido como Frei Galvão, o primeiro santo católico nascido no Brasil. A construção teve início em <time datetime="1774-02-02">2 de fevereiro de 1774</time> e substituiu a antiga capela construída em homenagem a Nossa Senhora da Luz, no início do século XVII.
 
 Frei Galvão, ao acreditar que a atual Avenida Tiradentes seria uma via importante para a cidade, alterou a entrada do prédio durante a obra, motivo pelo qual o altar da igreja se encontra à esquerda de quem entra e não à frente, como o de costume.
 
 A origem do acervo do Museu da Arte Sacra remonta ao início do século XX, quando o primeiro Arcebispo de São Paulo, dom Duarte Leopoldo e Silva, com o intuito de preservar as obras nacionais religiosas, fundou o Museu da Cúria.
 
-Em 1943, o Mosteiro da Luz foi tombado pelo IPHAN (Instituto do Patrimônio Histórico e Artístico Nacional).
+Em <time datetime="1943">1943</time>, o Mosteiro da Luz foi tombado pelo IPHAN (Instituto do Patrimônio Histórico e Artístico Nacional).
 
-Criado pelo <a href="http://www.al.sp.gov.br/repositorio/legislacao/decreto.lei/1969/decreto.lei-0F-28.10.1969.html">decreto-lei de 28 de outubro de 1969</a>, o Museu de Arte Sacra de São Paulo reuniu o acervo da Cúria e do Governo Paulista, e abriu suas portas ao público em 29 de junho de 1970, ocupando a ala esquerda do convento que foi reformada para receber o museu.
+Criado pelo <a href="http://www.al.sp.gov.br/repositorio/legislacao/decreto.lei/1969/decreto.lei-0F-28.10.1969.html">decreto-lei de <time datetime="1969-10-28">28 de outubro de 1969</time></a>, o Museu de Arte Sacra de São Paulo reuniu o acervo da Cúria e do Governo Paulista, e abriu suas portas ao público em <time datetime="1970-06-29">29 de junho de 1970</time>, ocupando a ala esquerda do convento que foi reformada para receber o museu.
 
-Em 1974, o prédio que abrigava o antigo Museu da Cúria, localizado na Rua Santa Teresa 17, foi demolido pela gestão do prefeito Miguel Colassuono, que desapropriou o terreno para utilizá-lo como canteiro de obras do futuro Metrô.
+Em <time datetime="1974">1974</time>, o prédio que abrigava o antigo Museu da Cúria, localizado na Rua Santa Teresa 17, foi demolido pela gestão do prefeito Miguel Colassuono, que desapropriou o terreno para utilizá-lo como canteiro de obras do futuro Metrô.
 
 O Museu de Arte Sacra conta hoje com mais de 18 mil peças datadas entre os Séculos XVI e XX. Dentre elas, encontram-se obras de Aleijadinho, Almeida Júnior e Benedito Calixto.
 

@@ -6,6 +6,6 @@ panorama: "!1m0!3m2!1sen!2s!4v1428695706154!6m8!1m7!1ssPt4tZ4Rm8sAAAQY9ObKgw!2m2
 ---
 O Catavento é um museu dedicado às ciências, localizado no {% assign lugar = site.lugares | where: "title", "Palácio das Indústrias" | first %}[Palácio das Indústrias]({{ site.baseurl }}{{ lugar.url }}).
 
-Em 2005, a Prefeitura de São Paulo inicia as discussões para a criação da Fundação Catavento enviando o Projeto de lei 469/2005 à Câmara Municipal de São Paulo.
+Em <time datetime="2005">2005</time>, a Prefeitura de São Paulo inicia as discussões para a criação da Fundação Catavento enviando o Projeto de lei 469/2005 à Câmara Municipal de São Paulo.
 
-Em 27 de março de 2009, o Catavento Cultural e Educacional é inaugurado.
+Em <time datetime="2009-03-27">27 de março de 2009</time>, o Catavento Cultural e Educacional é inaugurado.

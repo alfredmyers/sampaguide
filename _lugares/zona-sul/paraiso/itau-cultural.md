@@ -10,6 +10,6 @@ links:
   - title: Wikipedia
     url: http://pt.wikipedia.org/wiki/Ita%C3%BA_Cultural
 ---
-O Instituto Itaú Cultural foi fundado em fevereiro de 1987, concebido por Olavo Setúbal - presidente do conselho do Banco Itaú e prefeito de São Paulo entre 1975 e 1979.
+O Instituto Itaú Cultural foi fundado em <time datetime="1987-02">fevereiro de 1987</time>, concebido por Olavo Setúbal - presidente do conselho do Banco Itaú e prefeito de São Paulo entre <time datetime="1975">1975</time> e <time datetime="1979">1979</time>.
 
-Aberto ao público em outubro de 1989, o instituto disponibilizou ao público um sistema informatizado de consulta a bancos de dados sobre a arte brasileira - o primeiro do gênero na América Latina.
+Aberto ao público em <time datetime="1989-10">outubro de 1989</time>, o instituto disponibilizou ao público um sistema informatizado de consulta a bancos de dados sobre a arte brasileira - o primeiro do gênero na América Latina.

@@ -14,10 +14,10 @@ links:
 ---
 Na início da década de 70, o terreno entre a Rua Vergueiro e a Avenida 23 de Maio fruto das desapropriações ocasionadas pela construção do metrô foi cedido à prefeitura.
 
-Em julho de 1973, durante a administração de Miguel Colassuono, surgiu o Projeto Vergueiro que pelo plano consistiria em um complexo de escritórios, hotéis, um shopping center e uma grande biblioteca pública.
+Em <time datetime="1973-07">julho de 1973</time>, durante a administração de Miguel Colassuono, surgiu o Projeto Vergueiro que pelo plano consistiria em um complexo de escritórios, hotéis, um shopping center e uma grande biblioteca pública.
 
-Dois anos depois, a administração de Olavo Setúbal cancelou o Projeto Vergueiro. Do plano antigo restou somente a construção da biblioteca pública que abrigaria a ampliação da Biblioteca Mário de Andrade. Os arquitetos Eurico Prado Lopes e Luiz Telles venceram a concorrência aberta em 1976, e as obras tiveram início em 1978.
+Dois anos depois, a administração de Olavo Setúbal cancelou o Projeto Vergueiro. Do plano antigo restou somente a construção da biblioteca pública que abrigaria a ampliação da Biblioteca Mário de Andrade. Os arquitetos Eurico Prado Lopes e Luiz Telles venceram a concorrência aberta em <time datetime="1976">1976</time>, e as obras tiveram início em <time datetime="1978">1978</time>.
 
 O prefeito seguinte, Reynaldo de Barros, achava a obra grande de mais para abrigar somente uma biblioteca, então resolveu reformular o projeto e adaptá-lo ao de um centro cultural multidisciplinar nos moldes do Georges Pompidou de Paris com cinema, teatro, espaço para recitais e concertos, ateliês e áreas de exposições.
 
-O Centro Cultural São Paulo foi inaugurado em 13 de maio de 1982.
+O Centro Cultural São Paulo foi inaugurado em <time datetime="1982-05-13">13 de maio de 1982</time>.

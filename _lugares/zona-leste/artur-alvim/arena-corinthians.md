@@ -10,6 +10,6 @@ links:
 ---
 A Arena Corinthians é um estádio de futebol de propriedade do Sport Club Corinthians Paulista. Sua capacidade é para 48.234 lugares.
 
-Construída pela Odebrecht entre 30 de maio de 2011 e 15 de abril de 2014, a Arena Corinthians foi inaugurada oficialmente em 18 de maio de 2014 em uma partida entre a equipe do Corinthians e a Figueirense, pela Série A do Campeonato Brasileiro.
+Construída pela Odebrecht entre <time datetime="2011-05-30">30 de maio de 2011</time> e <time datetime="2014-04-15">15 de abril de 2014</time>, a Arena Corinthians foi inaugurada oficialmente em <time datetime="2014-05-18">18 de maio de 2014</time> em uma partida entre a equipe do Corinthians e a Figueirense, pela Série A do Campeonato Brasileiro.
 
-Em 12 de junho de 2014, a Arena Corinthians sediou a cerimônia de abertura da Copa do Mundo FIFA de 2014 e na sequência a partida inaugural da Copa do Mundo entre as seleções do Brasil e da Croácia em que o Brasil ganhou por 3 x 1.
+Em <time datetime="2014-06-12">12 de junho de 2014</time>, a Arena Corinthians sediou a cerimônia de abertura da Copa do Mundo FIFA de 2014 e na sequência a partida inaugural da Copa do Mundo entre as seleções do Brasil e da Croácia em que o Brasil ganhou por 3 x 1.

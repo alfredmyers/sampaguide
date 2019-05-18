@@ -12,8 +12,8 @@ links:
   - title: Wikipeida
     url: https://pt.wikipedia.org/wiki/Museu_Brasileiro_da_Escultura
 ---
-Em 1987, a prefeitura de São Paulo, sob a gestão Jânio Quadros, concedeu em regime de comodato à Sociedade de Amigos dos Museus o uso do terreno localizado no Jardim Europa por um período de 99 anos, com a contrapartida de que o mesmo fosse destinado à construção de um equipamento cultural aberto à comunidade.
+Em <time datetime="1987">1987</time>, a prefeitura de São Paulo, sob a gestão Jânio Quadros, concedeu em regime de comodato à Sociedade de Amigos dos Museus o uso do terreno localizado no Jardim Europa por um período de 99 anos, com a contrapartida de que o mesmo fosse destinado à construção de um equipamento cultural aberto à comunidade.
 
-Em 1988, foi iniciada a obra com projeto de Paulo Mendes da Rocha e projeto paisagístico de Roberto Burle Marx.
+Em <time datetime="1988">1988</time>, foi iniciada a obra com projeto de Paulo Mendes da Rocha e projeto paisagístico de Roberto Burle Marx.
 
-Em maio de 1995, o Museu Brasileiro da Escultura é inaugurado com uma mostra de 140 obras de Victor Brecheret.
+Em <time datetime="1995-05">maio de 1995</time>, o Museu Brasileiro da Escultura, <abbr title="Museu Brasileiro da Escultura">MuBE</abbr>, é inaugurado com uma mostra de 140 obras de Victor Brecheret.

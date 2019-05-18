@@ -12,8 +12,8 @@ links:
 ---
 Mercado Municipal de São Paulo, Mercado Municipal Paulistano ou simplesmente Mercadão. O mercado que também já teve o nome Mercado Cantareira foi construído para substituir o Mercado Central que funcionava a céu aberto na Rua 25 de Março.
 
-O edifício, em estilo eclético, foi construído entre 1928 e 1933 pelo escritório do arquiteto Ramos de Azevedo, sendo o desenho das fachadas de Felisberto Ranzini. No interior, vitrais do artista russo Conrado Sorgenicht Filho mostram vários aspectos da produção de alimentos.
+O edifício, em estilo eclético, foi construído entre <time datetime="1928">1928</time> e <time datetime="1933">1933</time> pelo escritório do arquiteto Ramos de Azevedo, sendo o desenho das fachadas de Felisberto Ranzini. No interior, vitrais do artista russo Conrado Sorgenicht Filho mostram vários aspectos da produção de alimentos.
 
-Foi inaugurado em 25 de janeiro de 1933 para ser um entreposto comercial de atacado e varejo, especializado na comercialização de frutas, verduras, cereais, carnes, temperos e outros produtos alimentícios.
+Foi inaugurado em <time datetime="1933-01-25">25 de janeiro de 1933</time> para ser um entreposto comercial de atacado e varejo, especializado na comercialização de frutas, verduras, cereais, carnes, temperos e outros produtos alimentícios.
 
-O edifício foi totalmente reformado em 2004 quando foi construído um mezanino, de autoria do arquiteto Pedro Paulo de Mello Saraiva.
+O edifício foi totalmente reformado em <time datetime="2004">2004</time> quando foi construído um mezanino, de autoria do arquiteto Pedro Paulo de Mello Saraiva.

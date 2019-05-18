@@ -9,10 +9,10 @@ links:
   - title: Site do Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)
     url: http://www.mac.usp.br/mac/conteudo/institucional/institucional.asp
 ---
-O Palácio da Agricultura foi projetado por Oscar Niemeyer em 1951 como parte do conjunto arquitetônico do {% assign lugar = site.lugares | where: "title", "Parque Ibirapuera" | first %}[Parque Ibirapuera]({{ site.baseurl }}{{ lugar.url }}).
+O Palácio da Agricultura foi projetado por Oscar Niemeyer em <time datetime="1951">1951</time> como parte do conjunto arquitetônico do {% assign lugar = site.lugares | where: "title", "Parque Ibirapuera" | first %}[Parque Ibirapuera]({{ site.baseurl }}{{ lugar.url }}).
 
-Construído inicialmente para abrigar a Secretaria da Agricultura, o edifício foi finalizado em 1953.
+Construído inicialmente para abrigar a Secretaria da Agricultura, o edifício foi finalizado em <time datetime="1953">1953</time>.
 
-Entre 1959 e 2009, foi a sede do Departamento Estadual de Trânsito (DETRAN).
+Entre <time datetime="1959">1959</time> e <time datetime="2009">2009</time>, foi a sede do <abbr title="Departamento Estadual de Trânsito">DETRAN</abbr>.
 
-Desde 2013, abriga o acervo do {% assign organizacao = site.organizacoes | where: "title", "Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)" | first %}[Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)]({{ site.baseurl }}{{ organizacao.url }}).
+Desde <time datetime="2013">2013</time>, abriga o acervo do {% assign organizacao = site.organizacoes | where: "title", "Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)" | first %}[Museu de Arte Contemporânea da Universidade de São Paulo (MAC-USP)]({{ site.baseurl }}{{ organizacao.url }}).

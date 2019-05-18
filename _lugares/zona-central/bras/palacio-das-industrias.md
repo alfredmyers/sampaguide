@@ -11,12 +11,12 @@ links:
 ---
 O Palácio das Indústrias foi projetado por Domiziano Rossi com a colaboração de Ricardo Severo e Ramos de Azevedo e foi concebido inicialmente como um espaço permanente de exposições agrícolas e industriais.
 
-A construção foi iniciada em 30 de maio de 1911 e o edifício inaugurado em 29 de abril de 1924. No mesmo ano, passa a abrigar a Rádio Educadora Paulista (atualmente Rádio Gazeta), primeira estação paulista de rádio.
+A construção foi iniciada em <time datetime="1911-05-30">30 de maio de 1911</time> e o edifício inaugurado em <time datetime="1924-04-29">29 de abril de 1924</time>. No mesmo ano, passa a abrigar a Rádio Educadora Paulista (atualmente Rádio Gazeta), primeira estação paulista de rádio.
 
-Entre 1947 e 1968, foi sede da Assembléia Legislativa.
+Entre <time datetime="1947">1947</time> e <time datetime="1968">1968</time>, foi sede da Assembléia Legislativa.
 
-Em 1992, o Palácio das Indústrias recebe a sede da prefeitura vinda do Pavilhão Manuel da Nóbrega no {% assign lugar = site.lugares | where: "title", "Parque Ibirapuera" | first %}[Parque Ibirapuera]({{ site.baseurl }}{{ lugar.url }}).
+Em <time datetime="1992">1992</time>, o Palácio das Indústrias recebe a sede da prefeitura vinda do Pavilhão Manuel da Nóbrega no {% assign lugar = site.lugares | where: "title", "Parque Ibirapuera" | first %}[Parque Ibirapuera]({{ site.baseurl }}{{ lugar.url }}).
 
-Em 2004, a sede da prefeitura é transferida para o Edifício Matarazzo, no {% assign bairro = site.bairros | where: "title", "Centro" | first %}[Centro]({{ site.baseurl }}{{ bairro.url }}).
+Em <time datetime="2004">2004</time>, a sede da prefeitura é transferida para o Edifício Matarazzo, no {% assign bairro = site.bairros | where: "title", "Centro" | first %}[Centro]({{ site.baseurl }}{{ bairro.url }}).
 
-Em 2009, passa a abrigar o {% assign organizacao = site.organizacoes | where: "title", "Catavento Cultural e Educacional" | first %}[Catavento Cultural e Educacional]({{ site.baseurl }}{{ organizacao.url }}).
+Em <time datetime="2009">2009</time>, passa a abrigar o {% assign organizacao = site.organizacoes | where: "title", "Catavento Cultural e Educacional" | first %}[Catavento Cultural e Educacional]({{ site.baseurl }}{{ organizacao.url }}).

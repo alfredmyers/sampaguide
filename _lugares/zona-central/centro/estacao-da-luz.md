@@ -10,16 +10,16 @@ links:
   - title: Estações Ferroviárias do Brasil
     url: http://www.estacoesferroviarias.com.br/l/luz.htm
 ---
-A Estação da Luz foi construída pela São Paulo Railway Company concessionária da primeira linha ferroviária em terras paulistas, linha esta construída entre 1862 e 1867 e que ligava Jundiaí ao porto de Santos.
+A Estação da Luz foi construída pela São Paulo Railway Company concessionária da primeira linha ferroviária em terras paulistas, linha esta construída entre <time datetime="1862">1862</time> e <time datetime="1867">1867</time> e que ligava Jundiaí ao porto de Santos.
 
-A estação original foi inaugurada em 1867. Era bem modesta e ficava localizada um pouco mais a leste na altura do prolongamento da atual Rua Florêncio de Abreu.
+A estação original foi inaugurada em <time datetime="1867">1867</time>. Era bem modesta e ficava localizada um pouco mais a leste na altura do prolongamento da atual Rua Florêncio de Abreu.
 
 Na década de 1870, uma segunda estação ampliada foi construída mais a oeste.
 
-Finalmente, em 1895 deu-se o início à construção da estação atual que seria aberta ao público em 1 de março de 1901.
+Finalmente, em <time datetime="1895">1895</time> deu-se o início à construção da estação atual que seria aberta ao público em <time datetime="1901-03-01">1 de março de 1901</time>.
 
 O projeto arquitetônico é do inglês Charles Henry Drives inspirado no Big Ben e na Abadia de Westminster.
 
-Em 1946, dois dias antes do final da concessão e entrega da linha ferroviária à União, a estação foi atingida por um grande incêndio que destruiu boa parte do prédio. Durante a reconstrução, um novo andar foi adicionado ao edifício que foi entregue ao público em 1951.
+Em <time datetime="1946">1946</time>, dois dias antes do final da concessão e entrega da linha ferroviária à União, a estação foi atingida por um grande incêndio que destruiu boa parte do prédio. Durante a reconstrução, um novo andar foi adicionado ao edifício que foi entregue ao público em <time datetime="1951">1951</time>.
 
 Na primeira metade do século 2000, o edifício passou por uma ampla reforma que adequou parte dele para receber o {% assign organizacao = site.organizacoes | where: "title", "Museu da Língua Portuguesa" | first %}[Museu da Língua Portuguesa]({{ site.baseurl }}{{ organizacao.url }}).

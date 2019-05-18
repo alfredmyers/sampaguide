@@ -9,12 +9,12 @@ links:
   - title: Wikipedia
     url: https://pt.wikipedia.org/wiki/Caixa_Cultural_S%C3%A3o_Paulo
 ---
-O edifício que hoje abriga a Caixa Cultural São Paulo foi projetado para ser a sede estadual da Caixa Econômica Federal no estado de São Paulo, substituindo a sede de 1907 localizada na antiga Travessa da Sé - atual Rua Venceslau Brás.
+O edifício que hoje abriga a Caixa Cultural São Paulo foi projetado para ser a sede estadual da Caixa Econômica Federal no estado de São Paulo, substituindo a sede de <time datetime="1907">1907</time> localizada na antiga Travessa da Sé - atual Rua Venceslau Brás.
 
-A elaboração do projeto começou em 1933 e a construção em 1935 - ambas a cargo dos Escritórios Albuquerque &amp; Longo.
+A elaboração do projeto começou em <time datetime="1933">1933</time> e a construção em <time datetime="1935">1935</time> - ambas a cargo dos Escritórios Albuquerque &amp; Longo.
 
-A inauguração ocorreu em 29 de agosto de 1939, com a presença do então presidente Getúlio Vargas.
+A inauguração ocorreu em <time datetime="1939-08-29">29 de agosto de 1939</time>, com a presença do então presidente Getúlio Vargas.
 
-O edifício abrigou a sede da Caixa em São Paulo até 1979, quando os escritórios do banco foram transferidos para um edifício na Avenida Paulista.
+O edifício abrigou a sede da Caixa em São Paulo até <time datetime="1979">1979</time>, quando os escritórios do banco foram transferidos para um edifício na Avenida Paulista.
 
-A unidade paulistana da Caixa Cultural foi inaugurada em 29 de agosto de 1989 ocupando alguns andares do edifício que abriga ainda a agência Sé e alguns escritórios administrativos do banco.
+A unidade paulistana da Caixa Cultural foi inaugurada em <time datetime="1989-08-29">29 de agosto de 1989</time> ocupando alguns andares do edifício que abriga ainda a agência Sé e alguns escritórios administrativos do banco.

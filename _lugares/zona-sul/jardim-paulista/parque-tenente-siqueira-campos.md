@@ -12,18 +12,18 @@ links:
   - title: Wikipedia
     url: http://pt.wikipedia.org/wiki/Parque_Trianon
 ---
-O Parque Tenente Siqueira Campos foi inaugurado em 3 de abril de 1892 no ano seguinte à inauguração da Avenida Paulista.
+O Parque Tenente Siqueira Campos foi inaugurado em <time datetime="1892-04-03">3 de abril de 1892</time> no ano seguinte à inauguração da Avenida Paulista.
 
-Com projeto paisagístico do francês Paul Villon e do inglês Barry Parker, a vegetação é composta por remanescentes de mata atlântica da região do alto do Caaguaçu (como era conhecida a região do espigão da Avenida Paulista) e espécies exóticas introduzidas. 
+Com projeto paisagístico do francês Paul Villon e do inglês Barry Parker, a vegetação é composta por remanescentes de mata atlântica da região do alto do Caaguaçu (como era conhecida a região do espigão da Avenida Paulista) e espécies exóticas introduzidas.
 
 Por conta da intervenção do paisagista francês, o parque é chamado em alguns textos antigos de Parque Villon. Também já foi chamado de Parque Avenida e Parque Trianon - este último, nome pelo qual muitos ainda conhecem o parque.
 
 O nome Trianon veio do fato de ter existido em frente ao parque no local onde hoje se situa o Museu de Arte de São Paulo um restaurante e bar, o Clube Trianon.
 
-Até 1924, o terreno era explorado pela iniciativa privada quando então foi doado à Prefeitura da Cidade de São Paulo.
+Até <time datetime="1924">1924</time>, o terreno era explorado pela iniciativa privada quando então foi doado à Prefeitura da Cidade de São Paulo.
 
-Em 1931 o parque recebeu seu nome atual em homenagem ao tenente Antônio de Siqueira Campos, um paulista de Rio Claro, herói do Movimento Tenentista de 1924.
+Em <time datetime="1931">1931</time> o parque recebeu seu nome atual em homenagem ao tenente Antônio de Siqueira Campos, um paulista de Rio Claro, herói do Movimento Tenentista de 1924.
 
-A partir de 1968, o parque passou por várias mudanças que tiveram a assinatura do paisagista Burle Marx e do arquiteto Clóvis Olga.
+A partir de <time datetime="1968">1968</time>, o parque passou por várias mudanças que tiveram a assinatura do paisagista Burle Marx e do arquiteto Clóvis Olga.
 
 O parque abriga as esculturas “Fauno” de Victor Brecheret e “Aretusa’ de Francisco Leopoldo Silva.

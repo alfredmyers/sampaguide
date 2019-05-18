@@ -16,10 +16,10 @@ links:
 ---
 No século 19, a região era formada por chácaras e sítios pertencentes às famílias abastadas da cidade de São Paulo. O nome do bairro se origina de uma delas, a Chácara Bom Retiro.
 
-A partir de 1860, o perfil do bairro começa a mudar com a instalação de diversas olarias que extraiam argila da várzea dos rios Tamanduateí e Tietê, entre elas a Olaria Manfred.
+A partir de <time datetime="1860">1860</time>, o perfil do bairro começa a mudar com a instalação de diversas olarias que extraiam argila da várzea dos rios Tamanduateí e Tietê, entre elas a Olaria Manfred.
 
-Em 1867, com a inauguração da estrada de ferro da São Paulo Railway Company ligando Santos a Jundiaí, diversas indústrias e depósitos são construídos no bairro.
+Em <time datetime="1867">1867</time>, com a inauguração da estrada de ferro da São Paulo Railway Company ligando Santos a Jundiaí, diversas indústrias e depósitos são construídos no bairro.
 
-Em 1882, o bairro recebe a primeira Hospedaria de Imigrantes. A falta de espaço e as constantes epidemias fazem com que um novo conjunto de edifícios seja construído e com isto a hospedaria é transferida para o Brás em 1888.
+Em <time datetime="1882">1882</time>, o bairro recebe a primeira Hospedaria de Imigrantes. A falta de espaço e as constantes epidemias fazem com que um novo conjunto de edifícios seja construído e com isto a hospedaria é transferida para o Brás em <time datetime="1888">1888</time>.
 
 O bairro recebeu sucessivas levas de imigrantes: italianos, judeus a partir da década de 1920, sul-coreanos a partir da década de 1960 e mais recentemente bolivianos.

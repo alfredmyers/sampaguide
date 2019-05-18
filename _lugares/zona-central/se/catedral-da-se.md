@@ -12,10 +12,10 @@ links:
 ---
 A Catedral Metropolitana de São Paulo, ou Catedral da Sé, está na sua terceira "versão".
 
-A história da catedral remonta ao período colonial quando em 1598 inicia-se a construção da primeira igreja - A Igreja Matriz na então vila São Paulo de Piratininga. A construção é concluída entre 1612 e 1616.
+A história da catedral remonta ao período colonial quando em <time datetime="1598">1598</time> inicia-se a construção da primeira igreja - A Igreja Matriz na então vila São Paulo de Piratininga. A construção é concluída entre <time datetime="1612">1612</time> e <time datetime="1616">1616<time>.
 
-Em 1745, a já cidade de São Paulo torna-se sede de diocese. A antiga igreja é demolida e no seu lugar é construída uma nova em estilo barroco, terminada em torno de 1764. Esta segunda igreja seria a catedral de São Paulo até 1911, quando também foi demolida.
+Em <time datetime="1745">1745</time>, a já cidade de São Paulo torna-se sede de diocese. A antiga igreja é demolida e no seu lugar é construída uma nova em estilo barroco, terminada em torno de <time datetime="1764">1764</time>. Esta segunda igreja seria a catedral de São Paulo até <time datetime="1911">1911</time>, quando também foi demolida.
 
-Entre 1912 e 1913, inicia-se a construção da terceira igreja - a catedral atual. A falta de recursos financeiros e as dificuldades decorrentes de duas guerras mundiais fazem com que a construção se arraste por décadas.
+Entre <time datetime="1912">1912</time> e <time datetime="1913">1913</time>, inicia-se a construção da terceira igreja - a catedral atual. A falta de recursos financeiros e as dificuldades decorrentes de duas guerras mundiais fazem com que a construção se arraste por décadas.
 
-Em 25 e janeiro de 1954, durante as comemorações do IV Centenário de São Paulo, a nova catedral - em estilo eclético com forte influência do estilo gótico - é inaugurada com as torres ainda inacabadas. Estes seriam concluídas somente em 1967.
+Em <time datetime="1954-01-25">25 e janeiro de 1954</time>, durante as comemorações do IV Centenário de São Paulo, a nova catedral - em estilo eclético com forte influência do estilo gótico - é inaugurada com as torres ainda inacabadas. Estes seriam concluídas somente em <time datetime="1967">1967</time>.

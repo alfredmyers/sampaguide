@@ -8,5 +8,5 @@ links:
   - title: Nossa Senhora do Carmo
     url: http://www.arquisp.org.br/regiaose/paroquias/mosteiros-igrejas-historicas-oratorios-da-regiao-se/igreja-nossa-senhora-do-carmo
 ---
-A Igreja da Ordem Terceira do Carmo foi fundada na segunda metade do século XVII por um grupo de leigos como uma capela contígua à Igreja de Nossa Senhora do Carmo, inaugurada em 1592 e demolida em 1928.
-A edificação atual foi erguida em taipa de pilão, entre 1747 e 1758. Entre 1772 e 1802, foi ampliada e ganhou um novo frontispício.
+Igreja da Ordem Terceira do Carmo foi fundada na segunda metade do século XVII por um grupo de leigos como uma capela contígua à Igreja de Nossa Senhora do Carmo, inaugurada em <time datetime="1592">1592</time> e demolida em <time datetime=1928">1928</time>.
+A edificação atual foi erguida em taipa de pilão, entre <time datetime="1747">1747</time> e <time datetime="1758">1758</time>. Entre <time datetime="1772">1772</time> e <time datetime="1802">1802</time>, foi ampliada e ganhou um novo frontispício.

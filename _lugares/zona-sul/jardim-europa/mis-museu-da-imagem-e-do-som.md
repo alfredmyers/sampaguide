@@ -10,10 +10,10 @@ links:
   - title: Wikipeida
     url: https://pt.wikipedia.org/wiki/Museu_da_Imagem_e_do_Som_de_S%C3%A3o_Paulo
 ---
-O Museu da Imagem e do Som de São Paulo foi inspirado no MIS do Rio de Janeiro inaugurado em 1965.
+O Museu da Imagem e do Som de São Paulo foi inspirado no <abbr title="Museu da Imagem e do Som">MIS</abbr> do Rio de Janeiro inaugurado em <time datetime="1965">1965</time>.
 
-Os trabalhos para a criação do museu paulista foram iniciados em 1967 e a inauguração se deu em 29 de maio de 1970.
+Os trabalhos para a criação do museu paulista foram iniciados em <time datetime="1967">1967</time> e a inauguração se deu em <time datetime="1970-05-29">29 de maio de 1970</time>.
 
 Nos primeiros cinco anos de funcionamento, o museu ocupou vários endereços. O primeiro foi na rua Antônio de Godói, no centro da cidade. Depois foi transferido para o Palácio dos Campos Elísios, dois sobrados na Alameda Nothmann, um edifício na Av. Paulista, uma casa na Rua Oscar Pereira da Silva e finalmente um casarão na Av. Europa desapropriado o industrial Affonso Giaffone.
 
-O imóvel sofreu uma ampla reforma e a sede atual do MIS foi aberta ao público em 27 de fevereiro de 1975, com a exposição Memória Paulistana.
+O imóvel sofreu uma ampla reforma e a sede atual do MIS foi aberta ao público em <time datetime="1975-02-27">27 de fevereiro de 1975</time>, com a exposição Memória Paulistana.

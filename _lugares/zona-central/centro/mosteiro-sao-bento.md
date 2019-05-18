@@ -10,16 +10,16 @@ links:
   - title: Site oficial do Mosteiro de São Bento
     url: http://mosteiro.org.br/?page_id=13
 ---
-Em 1598, o frei Mauro Teixeira, religioso paulista de São Vicente, levantou uma igreja dedicada a São Bento no terreno onde antes havia estado a casa do cacique Tibiriçá, localizado no alto do morro entre o rio Anhangabaú e o rio Tamanduateí.
+Em <time datetime="1598">1598</time>, o frei Mauro Teixeira, religioso paulista de São Vicente, levantou uma igreja dedicada a São Bento no terreno onde antes havia estado a casa do cacique Tibiriçá, localizado no alto do morro entre o rio Anhangabaú e o rio Tamanduateí.
 
-O mosteiro foi levantado a partir de 1600 e o conjunto era inicialmente composto pela igreja e quatro celas.
+O mosteiro foi levantado a partir de <time datetime="1600">1600</time> e o conjunto era inicialmente composto pela igreja e quatro celas.
 
 O local é o mais antigo em ocupação ininterrupta pela mesma instituição na cidade de São Paulo já que os jesuítas foram expulsos em mais de uma ocasião do local onde está o {% assign lugar = site.lugares | where: "title", "Pateo do Collegio" | first %}[Pateo do Collegio]({{ site.baseurl }}{{ lugar.url }}), marco de fundação da cidade.
 
-Em janeiro de 1650, foi lançada a pedra fundamental para uma grande ampliação patrocinada pelo bandeirante Fernão Dias Paes. Em troca do apoio financeiro, os monges lhe concederam o privilégio de ser sepultado na capela-mor da igreja do mosteiro. Até hoje os restos mortais dele e de sua esposa se encontram na cripta do mosteiro.
+Em <time datetime="1650-01">janeiro de 1650</time>, foi lançada a pedra fundamental para uma grande ampliação patrocinada pelo bandeirante Fernão Dias Paes. Em troca do apoio financeiro, os monges lhe concederam o privilégio de ser sepultado na capela-mor da igreja do mosteiro. Até hoje os restos mortais dele e de sua esposa se encontram na cripta do mosteiro.
 
-Em Julho de 1900, o abade alemão D. Miguel Kruse assume a direção do mosteiro. Em 1903, ele funda o Colégio de São Bento, de ensino médio, e em 1908 cria a Faculdade de Filosofia, a primeira do Brasil e que seria embrião da atual Pontifícia Universidade Católica de São Paulo.
+Em <time datetime="1900-07">julho de 1900</time>, o abade alemão D. Miguel Kruse assume a direção do mosteiro. Em <time datetime="1903">1903</time>, ele funda o Colégio de São Bento, de ensino médio, e em <time datetime="1908">1908</time> cria a Faculdade de Filosofia, a primeira do Brasil e que seria embrião da atual Pontifícia Universidade Católica de São Paulo.
 
-Em 1910, a igreja e o mosteiro da época colonial são demolidos para a construção de um novo conjunto segundo projeto do arquiteto alemão Richard Berndl. As obras durariam até 1922.
+Em <time datetime="1910">1910</time>, a igreja e o mosteiro da época colonial são demolidos para a construção de um novo conjunto segundo projeto do arquiteto alemão Richard Berndl. As obras durariam até <time datetime="1922">1922</time>.
 
-Em 14 de junho de 1922, a igreja seria elevada à categoria de basílica e o conjunto chegaria à configuração atual composto pelo Mosteiro São Bento, a Basílica Abacial de Nossa Senhora da Assunção, o Colégio de São Bento e a Faculdade de São Bento.
+Em <time datetime="1922-06-14">14 de junho de 1922</time>, a igreja seria elevada à categoria de basílica e o conjunto chegaria à configuração atual composto pelo Mosteiro São Bento, a Basílica Abacial de Nossa Senhora da Assunção, o Colégio de São Bento e a Faculdade de São Bento.
