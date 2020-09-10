@@ -6,6 +6,13 @@ Sampa Guide - Um guia para se perder em São Paulo
 
 ## Development instructions
 
+For updating dependencies:
+
+```bash
+bundle update
+```
+
+
 For running the development web server:
 
 ```bash
